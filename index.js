@@ -6,6 +6,8 @@ var mysql = require('mysql');
 var express = require('express');
 var app = express();
 
+var PORT = process.env.PORT || 8080;
+
 /*
 var con = mysql.createConnection({
   host: 'localhost',
@@ -48,4 +50,4 @@ function handleError(err, req, res, next){
 app.post('/echo', echoRequete, function(req, res){ } );
 app.use(handleError);
 
-app.listen(8080);
+app.listen(PORT, () => console.log("En attente sur le port " + PORT));
