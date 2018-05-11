@@ -4,6 +4,7 @@
   "description": "Version minimale de l'Assistant UTT (juste questions/réponses)",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
