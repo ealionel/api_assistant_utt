@@ -6,6 +6,7 @@ var mysql = require('mysql');
 var express = require('express');
 var app = express();
 
+/*
 var con = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -17,6 +18,7 @@ con.connect(function(err){
   if (err) throw err;
   console.log('Connexion à la base donnée OK')
 });
+*/
 
 app.use(bodyParser.json());
 
