@@ -37,6 +37,17 @@ connection.connect(function(err){
     console.log("Création de table messages_utilisateur");
   });
 
+  connection.query("CREATE TABLE IF NOT EXISTS info_ue (\
+    id INT NOT NULL AUTO_INCREMENT, \
+    code TEXT, \
+    nom TEXT, \
+    description TEXT, \
+    PRIMARY KEY(id))", function(err, result){
+    if (err) throw err;
+    console.log("Création de table messages_utilisateur");
+  });
+
+
 
 });
 

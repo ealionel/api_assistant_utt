@@ -39,6 +39,7 @@ function addUserFeedback(nom, contenu){
   });
 }
 
+//Retourne le feedback utilisateur
 function getUserFeedback(option){
   var requete = 'SELECT * FROM feedback_utilisateurs'
   var resultats;
@@ -78,26 +79,44 @@ app.post('/add/userFeedback', function(req, res){
     res.send(req.body);
   }
 
-  // else{
-  //   res.statusCode = 400;
-  //   res.json({"error":"Bad body"});
-  // }
-
 });
 
 app.get('/', function(req, res){
   res.send(undefined);
 })
 
+
 app.get('/get/userFeedback', function(req, res){
+
   var requete = 'SELECT * FROM feedback_utilisateurs'
 
   db.query(requete, function(err, result, fields){
     if(err) throw err;
     res.send(result);
   });
-
 });
+
+app.get('/get/UE', function(req,res){
+  var requete = 'SELECT * FROM info_ue'
+
+  if(req.query.code != null){
+    requete = requete + " WHERE " + "code=" + req.query.code
+  }
+  console.log(requete)
+
+  db.query(requete, function(err, result, fields){
+    if(err) throw err;
+    res.send(result);
+  });
+});
+
+app.get('/test', function(req,res){
+  console.log(req.params)
+  console.log(req.query)
+
+  res.send(req.params)
+})
+
 
 app.use(handleError);
 
