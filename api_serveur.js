@@ -1,62 +1,63 @@
-//CE SCRIPT PERMET DE LANCER L'API QUI PERMET DE RÉCUPERER TOUS LE CONTENU DES QUESTIONS
+// CE SCRIPT PERMET DE LANCER L'API QUI PERMET DE RÉCUPERER TOUS LE CONTENU DES QUESTIONS
 
-var bodyParser = require('body-parser');
 
-var mysql = require('mysql');
-var express = require('express');
-var app = express();
+const bodyParser = require('body-parser');
+const mysql = require('mysql');
+const express = require('express');
 
-var PORT = process.env.PORT || 8080;
+const app = express();
 
-var db = mysql.createConnection({
+// process.env.PORT c'est pour HEROKU quand il déploie le code
+const PORT = process.env.PORT || 8080;
+
+const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'assistant_utt'
+  database: 'assistant_utt',
 });
 
-db.connect(function(err){
+db.connect((err) => {
   if (err) throw err;
-  console.log('Connexion à la base donnée OK')
+  console.log('Connexion à la base donnée OK');
 });
 
 app.use(bodyParser.json());
 
-//Juste une fonction qui permet d'afficher dans la console le contenu de la requête et de la renvoyer
-function echoRequete(req, res, next){
-  var reqTotal = [req.headers].concat( [req.body] );
+function echoRequete(req, res, next) {
+  const reqTotal = [req.headers].concat([req.body]);
   res.json(reqTotal);
   console.log(reqTotal);
 
   next();
 }
 
-function addUserFeedback(nom, contenu){
-  var requete = 'INSERT INTO feedback_utilisateurs (nom_utilisateur, contenu) VALUES ("' + mysql.escape(nom) + '", "' + mysql.escape( contenu ) + '")';
-  db.query(requete, function(err,result, fields){
+function addUserFeedback(nom, contenu) {
+  const requete = `INSERT INTO feedback_utilisateurs (nom_utilisateur, contenu) VALUES ('${mysql.escape(nom)}', '${mysql.escape(contenu)}')`;
+  db.query(requete, (err) => {
     if (err) throw err;
-    console.log("Ajout de %s : %s", nom, contenu);
+    console.log('Ajout de %s : %s', nom, contenu);
   });
 }
 
-//Retourne le feedback utilisateur
-function getUserFeedback(option){
-  var requete = 'SELECT * FROM feedback_utilisateurs'
-  var resultats;
-  var test = "test";
 
-  db.query(requete, function(err, result, fields){
-    if(err) throw err;
-    resultats = result;
-  });
+// Retourne le feedback utilisateur
+// function getUserFeedback(option) {
+//   const requete = 'SELECT * FROM feedback_utilisateurs';
+//   var test = "test";
+//
+//   db.query(requete, function(err, result, fields){
+//     if(err) throw err;
+//     resultats = result;
+//   });
+//
+//   console.log(resultats);
+//
+//   return resultats;
+// }
 
-  console.log(resultats);
-
-  return resultats;
-}
-
-function handleError(err, req, res, next){
-  if (err instanceof SyntaxError){
+function handleError(err, req, res, next) {
+  if (err instanceof SyntaxError) {
     console.log(err);
     res.send(err);
   }
@@ -65,59 +66,51 @@ function handleError(err, req, res, next){
 }
 
 
-app.post('/echo', echoRequete, function(req, res){});
+app.post('/echo', echoRequete, () => {});
 
-app.post('/add/userFeedback', function(req, res){
-  if(req.body.nomUtilisateur != undefined & req.body.contenu != undefined){
+app.post('/add/userFeedback', (req, res) => {
+  if (req.body.nomUtilisateur !== undefined && req.body.contenu !== undefined) {
     addUserFeedback(req.body.nomUtilisateur, req.body.contenu);
-    res.status(201);
-    res.send(req.body);
-  }
-  else if(req.body.nomUtilisateur == undefined & req.body.contenu != undefined){
-    addUserFeedback("Anonyme", req.body.contenu);
-    res.status(201);
-    res.send(req.body);
-  }
 
+    res.status(201);
+    res.send(req.body);
+  } else if (req.body.nomUtilisateur === undefined && req.body.contenu !== undefined) {
+    addUserFeedback('Anonyme', req.body.contenu);
+    res.status(201);
+    res.send(req.body);
+  }
 });
 
-app.get('/', function(req, res){
+app.get('/', (req, res) => {
   res.send(undefined);
-})
+});
 
 
-app.get('/get/userFeedback', function(req, res){
+app.get('/get/userFeedback', (req, res) => {
+  const requete = 'SELECT * FROM feedback_utilisateurs';
 
-  var requete = 'SELECT * FROM feedback_utilisateurs'
-
-  db.query(requete, function(err, result, fields){
-    if(err) throw err;
+  db.query(requete, (err, result) => {
+    if (err) throw err;
     res.send(result);
   });
 });
 
-app.get('/get/UE', function(req,res){
-  var requete = 'SELECT * FROM info_ue'
+app.get('/get/UE', (req, res) => {
+  let requete = 'SELECT * FROM info_ue';
 
-  if(req.query.code != null){
-    requete = requete + " WHERE " + "code=" + req.query.code
+  if (req.query.code != null) {
+    requete = `${requete} WHERE code=${mysql.escape(req.query.code)}`;
   }
-  console.log(requete)
 
-  db.query(requete, function(err, result, fields){
-    if(err) throw err;
+  console.log(requete);
+
+  db.query(requete, (err, result) => {
+    if (err) throw err;
     res.send(result);
   });
 });
-
-app.get('/test', function(req,res){
-  console.log(req.params)
-  console.log(req.query)
-
-  res.send(req.params)
-})
 
 
 app.use(handleError);
 
-app.listen(PORT, () => console.log("En attente sur le port " + PORT));
+app.listen(PORT, () => console.log('En attente sur le port %d', PORT));

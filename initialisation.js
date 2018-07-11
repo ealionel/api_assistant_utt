@@ -44,7 +44,7 @@ connection.connect(function(err){
     description TEXT, \
     PRIMARY KEY(id))", function(err, result){
     if (err) throw err;
-    console.log("Création de table messages_utilisateur");
+    console.log("Création de table info_ue");
   });
 
 
