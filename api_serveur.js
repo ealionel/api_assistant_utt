@@ -90,7 +90,7 @@ app.get('/get/UE', (req, res) => {
 
   db.query(requete, (err, result) => {
     if (err) throw err;
-    res.send(result);
+    res.send(result[0]);
   });
 });
 

@@ -1,48 +1,10 @@
-// function Employe(nom){
-//   this.nom = nom;
-//   this.branche="commun";
-//   this.titre = "employé";
-// }
-//
-// function Manager(){
-//   this.rapports=[]¢
-//   this.titre = "manager";
-// }
-//
-// Manager.prototype = new Employe("Lionel");
-//
-// class Vehicule{
-//   constructor(modele){
-//     this.modele = modele;
-//   }
-//
-//   toString(){
-//     return "Je suis un véhicule de modèle " + this.modele;
-//   }
-// }
-//
-// var v = new Vehicule("bonjour");
-// console.log(v.toString());
-
-// var promise = new Promise(function(resolve, reject){
-//
-// })
-
-// var ajouterdeux = (n) => { console.log("premier truc") ; return Promise.resolve(n+2) };
-// var multiplierdeux = (n) => { console.log("deuxieme truc") ; return n*2};
-// var mettreaucarre = (n) => {console.log("troisème truc") ; return n*n};
-//
-// const promise = new Promise(function(resolve, reject){
-//   resolve(2);
-// });
-//
-// var val = promise.then(ajouterdeux)
-//                 .then(multiplierdeux)
-//                 .then(mettreaucarre)
-//                 .then( (n) => { console.log(n) })
-//                 .catch(function(e){ console.log(e.message) });
+const fetch = require('node-fetch');
 
 
-var test = { prenom:"Lionel"}
+async function getUE() {
+  await fetch('http://assistantutt.ga:8080/get/UE?code=MATH01')
+    .then(info => info.json())
+    .then(info => console.log(info[0].code));
+}
 
-console.log(test.prenom);
+getUE();
