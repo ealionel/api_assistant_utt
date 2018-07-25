@@ -90,11 +90,15 @@ app.get('/get/UE', (req, res) => {
 
   db.query(requete, (err, result) => {
     if (err) throw err;
-    res.send(result[0]);
+    if (result.length > 0) {
+      res.send(result[0]);
+    } else {
+      res.send({ error: `'${req.query.code}' does not exist in the UE database.` });
+    }
   });
 });
 
 
 app.use(handleError);
 
-app.listen(PORT, () => console.log('En attente sur le port %d', PORT));
+app.listen(PORT, () => console.log('Listening at port %d', PORT));
