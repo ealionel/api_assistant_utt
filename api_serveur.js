@@ -40,22 +40,6 @@ function addUserFeedback(nom, contenu) {
   });
 }
 
-
-// Retourne le feedback utilisateur
-// function getUserFeedback(option) {
-//   const requete = 'SELECT * FROM feedback_utilisateurs';
-//   var test = "test";
-//
-//   db.query(requete, function(err, result, fields){
-//     if(err) throw err;
-//     resultats = result;
-//   });
-//
-//   console.log(resultats);
-//
-//   return resultats;
-// }
-
 function handleError(err, req, res, next) {
   if (err instanceof SyntaxError) {
     console.log(err);
