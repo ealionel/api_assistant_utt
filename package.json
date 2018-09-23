@@ -16,10 +16,13 @@
     "fs": "0.0.1-security",
     "googleapis": "^32.0.0",
     "https": "^1.0.0",
+    "mariasql": "^0.2.6",
     "mongodb": "^3.1.1",
     "mysql": "^2.15.0",
+    "mysql2": "^1.6.1",
     "node-fetch": "^2.1.2",
     "request": "^2.87.0",
+    "sequelize": "^4.38.1",
     "url": "^0.11.0"
   },
   "devDependencies": {
@@ -30,5 +33,9 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-react": "^7.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ealionel/api_assistant_utt.git"
   }
 }
