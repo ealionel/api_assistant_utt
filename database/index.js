@@ -13,6 +13,8 @@ const sequelize = new Sequelize('assistant_utt', 'root', '', {
   },
 });
 
+// Declare the name of every models that are in path ./models
+// to import them
 const models = [
   'ListUE',
   'UsersFeedback',
@@ -20,14 +22,15 @@ const models = [
 
 module.exports.model = {};
 
+// This is to avoid having to declare every models everytime we want to
+// make an app interactinf with our MySQL database.
 models.forEach((modelName) => {
   module.exports.model[modelName] = sequelize.import(`${__dirname}/models/${modelName}`);
 });
 
 module.exports.sequelize = sequelize;
 
-// sequelize.sync({ force: true }).then(() => {
-//   ListUE.create({
-//     code: 'LO14',
-//   });
-// });
+module.exports.sequelize.connectToDatabase = () => {
+  sequelize.authenticate()
+    .then(() => console.log('Connection to database established.'));
+};
