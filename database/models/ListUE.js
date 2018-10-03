@@ -2,8 +2,19 @@ module.exports = (sequelize, DataTypes) => (
   sequelize.define('ListUE', {
     code: DataTypes.STRING,
     titre: DataTypes.STRING,
-    objectif: DataTypes.JSON,
-    programme: DataTypes.JSON,
+    objectif: {
+      type: DataTypes.TEXT,
+      get() {
+        return JSON.parse(this.getDataValue('objectif'));
+      },
+    },
+    programme: {
+      type: DataTypes.TEXT,
+      get() {
+        return JSON.parse(this.getDataValue('programme'));
+      },
+    },
+    commentaires: DataTypes.STRING,
     categorie: DataTypes.STRING,
     credits: DataTypes.TINYINT,
     semestre: DataTypes.STRING,

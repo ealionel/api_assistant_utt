@@ -12,6 +12,8 @@ app.set('database', require('./database'));
 
 const { model, sequelize } = app.get('database');
 
+app.use(require('./controllers'));
+
 app.use(bodyParser.json());
 
 app.listen(PORT, () => {

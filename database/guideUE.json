@@ -167,7 +167,7 @@
   },
   {
     "code": "AP03",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Image, imaginaire et nouvelles technologies",
     "diplome": "UV ing.",
     "TDvolume": "45",
@@ -371,8 +371,6 @@
     "commentaires": "Bases de thermochimie et de cinétique nécessaires",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "comprendre et modéliser les phénomènes de catalyse (homogène, hétérogène et enzymatique)",
-    "programme9": "initiation au concept d'agro ressources'",
     "objectif": [
       "Cette UV permet de découvrir et d'appréhender scientifiquement les principaux procédés industriels (métallurgie'",
       "pétrochimie",
@@ -385,7 +383,9 @@
       "savoir construire et exploiter un diagramme d'Ellingham'",
       "prévoir les conditions de purification d'un minerai afin d'obtenir un métal pur (température et pression de corrosion)",
       "découvrir la fabrication du fer et des aciers",
-      "savoir étudier la cinétique d'un mécanisme complexe "
+      "savoir étudier la cinétique d'un mécanisme complexe ",
+      "comprendre et modéliser les phénomènes de catalyse (homogène, hétérogène et enzymatique)",
+      "initiation au concept d'agro ressources'"
     ],
     "semestre": "Automne"
   },
@@ -401,7 +401,6 @@
     "commentaires": "Notion de solubilité à maîtriser",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "être capable d'analyser un spectre de diffraction X simple",
     "objectif": [
       "De par leurs propriétés redox et mécaniques,les matériaux métalliques interviennent dans le stockage de",
       "l'énergie'",
@@ -413,7 +412,8 @@
       "savoir mesurer et calculer une vitesse de corrosion",
       "savoir mettre en oeuvre des stratégies anticorrosion",
       "connaitre les différents dispositifs de stockage d'énergie électrique",
-      "être capable de décrire les métaux, oxydes et hydroxydes métalliques sous une approche cristallographie"
+      "être capable de décrire les métaux, oxydes et hydroxydes métalliques sous une approche cristallographie",
+      "être capable d'analyser un spectre de diffraction X simple"
     ],
     "semestre": "Printemps"
   },
@@ -784,14 +784,13 @@
   },
   {
     "code": "CTC1",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Cinéma, technologie et création",
     "diplome": "UV ing.",
     "TDvolume": "45",
     "commentaires": "Intervenants extérieurs supérieur ou égail à 75%***",
     "credits": "4",
     "langues": "FRA",
-    "programme11": "intégrer différents types de contraintes (techniques, artistiques, organisationnelles) dans la réalisation d'un film'",
     "objectif": [
       "Réalisation d'un film à partir du scénario écrit par les étudiants de l'UV LI03 (Art du récit'",
       "écriture de scénario)",
@@ -805,13 +804,14 @@
       "demande d'autorisations",
       "planning de tournage",
       " gestion d'équipe'",
-      " etc."
+      " etc.",
+      "intégrer différents types de contraintes (techniques, artistiques, organisationnelles) dans la réalisation d'un film'"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "CVF1",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "FLE - Autour de la chanson française",
     "diplome": "UV ing.",
     "TDvolume": "54",
@@ -833,16 +833,12 @@
   },
   {
     "code": "CVF2",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "FLE - La gastronomie dans la culture française",
     "diplome": "UV ing.",
     "TDvolume": "54",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "connaître les manières de préparer une viande en sauce: cuisson d'un ragout à brun'",
-    "programme9": " réalisation d'une garniture bourguignonne'",
-    "programme10": "liaison des sauces",
-    "programme11": " etc.",
     "objectif": [
       "Ce cours propose aux étudiants étrangers inscrits dans un cours de français aux niveaux B1, B2 et C1  de découvrir la cuisine et la gastronomie françaises au moyen d'une approche basée sur le vécu et l'expérience. Il comporte 28 heures de travail dans les cuisines du lycée hôtelier de Sainte Savine et 26 heures de cours traditionnels dans les locaux de l'UTT. Les cours théoriques donnent les repères de base pour s'orienter dans l'univers de la cuisine française tandis que les séances en cuisine associent les étudiants à la préparation de plats et de repas traditionnels."
     ],
@@ -853,7 +849,11 @@
       "identifier les régions viticoles françaises, savoir de quelle manière associer un  vin à un plat",
       "Pratique:",
       "savoir réaliser une pâte à choux, un craquelin, une crème mousseline pralinée, une chantilly, savoir coucher, cuire et garnir des choux.",
-      "savoir habiller, fileter et cuisiner un poisson en sauce"
+      "savoir habiller, fileter et cuisiner un poisson en sauce",
+      "connaître les manières de préparer une viande en sauce: cuisson d'un ragout à brun'",
+      " réalisation d'une garniture bourguignonne'",
+      "liaison des sauces",
+      " etc."
     ],
     "semestre": "Automne / Printemps"
   },
@@ -930,7 +930,6 @@
     "commentaires": "Maîtrise du français niveau C2***|Intervenants extérieurs supérieur à 75%***",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "produire une ébauche de plan marketing",
     "objectif": [
       "se familiariser avec les concepts et la démarche du design",
       "histoire du design et principaux courants",
@@ -946,7 +945,8 @@
       "concevoir et obéir à un cahier des charges",
       "travailler et être créatif en groupe (management du design)",
       "maîtriser les outils : diagramme pieuvre et ternaire ; bête à corne ; planche de tendance ; CAO d'un objet et mise en situation dans un environnement virtuel ; élaborer et analyser un sondage'",
-      "adapter un objet à une cible commerciale"
+      "adapter un objet à une cible commerciale",
+      "produire une ébauche de plan marketing"
     ],
     "semestre": "Automne"
   },
@@ -990,10 +990,6 @@
     "commentaires": "Maîtrise du français niveau C1**|",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "savoir asservir numériquement un système mécanique(via un Arduino)",
-    "programme9": "pouvoir interfacer un capteur par LabVIEW",
-    "programme10": "au travers de séminaires donnés par des industriels, comprendre les enjeux techniques et applicatifs de familles de capteurs",
-    "programme11": "savoir choisir et dimensionner un capteur pour une application donnée",
     "objectif": [
       "Les capteurs sont présents dans l'essentiel des outils technologiques (mesures de grandeurs physiques'",
       "chimiques",
@@ -1004,7 +1000,11 @@
     ],
     "programme": [
       "connaître la métrologie (mesures de grandeurs physiques) des systèmes industriels: étalons, incertitudes, modélisation statistique",
-      "savoir conditionner et acquérir un signal pour le traiter numériquement"
+      "savoir conditionner et acquérir un signal pour le traiter numériquement",
+      "savoir asservir numériquement un système mécanique(via un Arduino)",
+      "pouvoir interfacer un capteur par LabVIEW",
+      "au travers de séminaires donnés par des industriels, comprendre les enjeux techniques et applicatifs de familles de capteurs",
+      "savoir choisir et dimensionner un capteur pour une application donnée"
     ],
     "semestre": "Printemps"
   },
@@ -1021,8 +1021,6 @@
     "commentaires": "Connaissance des circuits simples en continu et alternatif|conseillée|Niveau français : * niveau B2",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "être capable de proposer des modes de fonctionnement non standards pour des actionneurs donnés",
-    "programme9": "savoir mettre en oeuvre des asservissements numériques pour piloter les actionneurs",
     "objectif": [
       "Connaître, comprendre et apprendre à utiliser les différents types d'actionneurs électromagnétiques ou piézoélectriques employés, par exemple, pour concevoir des systèmes de production automatisés ou des robots"
     ],
@@ -1033,7 +1031,9 @@
       " électriques et",
       "thermiques",
       "savoir rédiger un cahier des charges pour la mise en place d'un actionneur avec son alimentation et son pilotage'",
-      "connaître les modélisations simplifiées des actionneurs et savoir identifier les paramètres du modèle à partir des notices constructeur ou bien de mesures expérimentales"
+      "connaître les modélisations simplifiées des actionneurs et savoir identifier les paramètres du modèle à partir des notices constructeur ou bien de mesures expérimentales",
+      "être capable de proposer des modes de fonctionnement non standards pour des actionneurs donnés",
+      "savoir mettre en oeuvre des asservissements numériques pour piloter les actionneurs"
     ],
     "semestre": "Automne"
   },
@@ -1063,10 +1063,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "DCI",
-    "programme9": "I2C",
-    "programme10": "CAN",
-    "programme11": "JTAG",
     "objectif": [
       "maîtriser les microcontrôleurs dans les applications des systèmes embarqués",
       "approfondir les connaissances de la programmation en C de manière portable et proche du matériel",
@@ -1079,7 +1075,11 @@
       "notions d'implémentation multi-tâches'",
       "applications, mise en oeuvre d'algorithmes de traitement du signal'",
       "gestion de la consommation",
-      "bus d'interconnexion : SPI'"
+      "bus d'interconnexion : SPI'",
+      "DCI",
+      "I2C",
+      "CAN",
+      "JTAG"
     ],
     "semestre": "Automne"
   },
@@ -1095,8 +1095,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "mise en oeuvre avec Quartus II (Altera)",
-    "programme9": "développement d'un projet autour du FPGA'",
     "objectif": [
       "acquérir des compétences sur les méthodes de prototypage rapide et les outils associés",
       "développer des applications de contrôle-commande sur processeurs spécialisés",
@@ -1111,7 +1109,9 @@
       "mise en oeuvre sur microprocesseurs spécialisés",
       "architectures des circuits logiques programmables (PAL, GAL, PLD,...) ASIC et FPGA",
       "notions de SOC (System On Chip), Processeur softcore",
-      "conception, simulation (VHDL, notions de System C)"
+      "conception, simulation (VHDL, notions de System C)",
+      "mise en oeuvre avec Quartus II (Altera)",
+      "développement d'un projet autour du FPGA'"
     ],
     "semestre": "Automne"
   },
@@ -1128,8 +1128,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "création de noyau Android",
-    "programme9": "présentation et mise en oeuvre sur processeurs spécialisés",
     "objectif": [
       "développement d'OS pour les systèmes embarqués'",
       "mise en oeuvre d'applications embarquées incluant des services mobiles'",
@@ -1142,7 +1140,9 @@
       "programmation d'interface opérateur et de commande en temps réel sous Windows CE'",
       "programmation d'application embarquée sous Android'",
       "navigation, géolocalisation, Satellitaire et variantes (GPS, Glonass, Galiléo...), RFID, RCSF, SIG",
-      "création de noyau CE sous Plateforme Builder"
+      "création de noyau CE sous Plateforme Builder",
+      "création de noyau Android",
+      "présentation et mise en oeuvre sur processeurs spécialisés"
     ],
     "semestre": "Automne"
   },
@@ -1158,9 +1158,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "comparaison des latences/performances de XENOMAI et Linux",
-    "programme9": "communication entre  XENOMAI  et Linux, installation de XENOMAI sur cible ARM (PANDABOARD)",
-    "programme10": "applications indépendantes de la charge du système",
     "objectif": [
       "former les étudiants à la compilation croisée des noyaux Linux embarqué sur des plateformes embarqués de type ARM",
       "former les étudiants à la création d'un système embarqué utilisant un noyau temps-réel open source à base de Linux de type RTLinux ou XENOMAI",
@@ -1173,7 +1170,10 @@
       "structure et Rôle et importance d'un Système d'exploitation'",
       "gestion du Multitâches, gestion de la mémoire",
       "communication et synchronisation entre les tâches, gestion des taches et des interruptions",
-      "noyau temps réel Linux/XENOMAI : installation et paramétrage"
+      "noyau temps réel Linux/XENOMAI : installation et paramétrage",
+      "comparaison des latences/performances de XENOMAI et Linux",
+      "communication entre  XENOMAI  et Linux, installation de XENOMAI sur cible ARM (PANDABOARD)",
+      "applications indépendantes de la charge du système"
     ],
     "semestre": "Printemps"
   },
@@ -1187,9 +1187,6 @@
     "THEvolume": "90",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "validation faisabilité éco-technique",
-    "programme9": "mise en oeuvre d'une stratégie Globale d'éco-conception au sein des entreprises'",
-    "programme10": "promotion des produits éco-conçus",
     "objectif": [
       "concevoir un système (produit, service et système industriel) en prenant en compte les critères",
       "environnementaux"
@@ -1201,13 +1198,16 @@
       "stimulation de l'éco-innovation'",
       "évaluation, hiérarchisation des idées et définition des concepts",
       "choix des technologies et des matériaux",
-      "design For X (recyclage et désassemblage)"
+      "design For X (recyclage et désassemblage)",
+      "validation faisabilité éco-technique",
+      "mise en oeuvre d'une stratégie Globale d'éco-conception au sein des entreprises'",
+      "promotion des produits éco-conçus"
     ],
     "semestre": "Automne"
   },
   {
     "code": "EC02R",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Eco énergies",
     "diplome": "UV ing.",
     "Cvolume": "20",
@@ -1235,7 +1235,7 @@
   },
   {
     "code": "EE06",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "L'entreprise dans le contexte européen et international",
     "diplome": "UV ing.",
     "mineur": "CIE",
@@ -1318,10 +1318,6 @@
     "commentaires": "Picto UE réalisée entièrement en ligne ou dématérialisée|Examen sur table",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "la veille",
-    "programme9": " la gestion de l'information'",
-    "programme10": " l'influence'",
-    "programme11": " le lobbying et le",
     "objectif": [
       "L'intelligence économique (IE) regroupe l'ensemble des activités liées à la gestion de l'information'",
       ",dans le but de développer des stratégies offensives ou défensives."
@@ -1333,7 +1329,11 @@
       " à la recherche de compétitivité",
       "initiation aux pratiques et concepts de l'IE permettra notamment de mieux appréhender les'",
       "leviers d'actions'",
-      "initiation à l'innovation'"
+      "initiation à l'innovation'",
+      "la veille",
+      " la gestion de l'information'",
+      " l'influence'",
+      " le lobbying et le"
     ],
     "semestre": "Printemps"
   },
@@ -1396,10 +1396,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "capteurs industriels, exemples de mise en oeuvre",
-    "programme9": "pilotage d'instrument'",
-    "programme10": "IEEE488",
-    "programme11": " SCPI via LabVIEW",
     "objectif": [
       "connaitre le fonctionnement des composants à semi-conducteurs",
       "mettre en oeuvre des composants dans les circuits électroniques",
@@ -1414,7 +1410,11 @@
       "la fonction Amplification adaptée aux capteurs",
       "conditionneurs, ponts de mesure, oscillateurs",
       "généralités, métrologie des capteurs",
-      "principes physiques des capteurs"
+      "principes physiques des capteurs",
+      "capteurs industriels, exemples de mise en oeuvre",
+      "pilotage d'instrument'",
+      "IEEE488",
+      " SCPI via LabVIEW"
     ],
     "semestre": "Printemps"
   },
@@ -1449,7 +1449,7 @@
   },
   {
     "code": "EP01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Responsabilité sociale de l'entreprise",
     "diplome": "UV ing. ou UV CS pour mast.",
     "mineur": "EDD",
@@ -1460,7 +1460,6 @@
     "commentaires": "Mineur : EDD|Maîtrise français niveau C1**",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "l'entreprise'",
     "objectif": [
       "Offrir une formation pratique et concrète aux principes et aux techniques de la Responsabilité Sociale de",
       "l'Entreprise'",
@@ -1472,13 +1471,14 @@
       "connaître les principaux référentiels en matière de développement durable",
       "connaître les instruments normatifs, de reporting et de communication sur la responsabilité sociétale",
       "définir la responsabilité sociétale d'une organisation'",
-      "élaborer un plan d'actions permettant d'intégrer les enjeux du développement durable à la stratégie de "
+      "élaborer un plan d'actions permettant d'intégrer les enjeux du développement durable à la stratégie de ",
+      "l'entreprise'"
     ],
     "semestre": "Automne"
   },
   {
     "code": "ER",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Enquête et recherche documentaire",
     "diplome": "UV ing. ou UV mast.",
     "THEvolume": "140",
@@ -1497,7 +1497,7 @@
   },
   {
     "code": "ER01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Enquête et recherche documentaire",
     "diplome": "UV ing.",
     "mineur": "COESO",
@@ -1510,7 +1510,7 @@
   },
   {
     "code": "EV00",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Prospective et philosophie de l'environnement",
     "diplome": "UV ing. ou UV CS pour mast.",
     "mineur": "EDD",
@@ -1537,7 +1537,7 @@
   },
   {
     "code": "EV01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Bases scientifiques de l'environnement",
     "diplome": "UV ing. ou UV CS pour mast.",
     "mineur": "EDD",
@@ -1547,8 +1547,6 @@
     "commentaires": "Mineur : EDD|Maîtrise français niveau C1 **",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " les synthétiser",
-    "programme9": "mobiliser les connaissances de différentes disciplines pour décrire un problème environnemental",
     "objectif": [
       "faire le point sur les différentes connaissances scientifiques relatives aux problèmes environnementaux"
     ],
@@ -1559,12 +1557,14 @@
       "physico-chimie de l'environnement'",
       "cycles géochimiques",
       "comprendre la nécessité d'une approche systémique ",
-      "extraire des informations d'articles scientifiques ou non'"
+      "extraire des informations d'articles scientifiques ou non'",
+      " les synthétiser",
+      "mobiliser les connaissances de différentes disciplines pour décrire un problème environnemental"
     ]
   },
   {
     "code": "EV02",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Economie et ethique de l'environnement",
     "diplome": "UV ing. ou UV CS pour mast.",
     "mineur": "EDD",
@@ -1574,8 +1574,6 @@
     "commentaires": "Mineur : EDD|Maîtrise français niveau B2 *|Drapeau français anglais||",
     "credits": "4",
     "langues": "ANG, FRA",
-    "programme8": "discuter l'analyse coûts-bénéfices comme méthode d'aide à la décision appliquée à l'environnement et la question de l'actualisation temporelle des impacts à long terme'",
-    "programme9": "décrire le cadre hétérodoxe de l'économie écologique'",
     "objectif": [
       "En économie de l'environnement'",
       " des instruments incitatifs sont proposés et mis en oeuvre pour réguler les impacts du système de production-consommation sur les systèmes naturels et le bien-être humain."
@@ -1586,12 +1584,14 @@
       "y intégrer la notion conceptuelle et pratique des externalités environnementales et des biens communs et biens publics",
       "comprendre les principes des instruments économiques des politiques d'environnement (taxes et permis)",
       "savoir poser et résoudre certains problèmes appliqués associés et connaître leur portée pratique (fiscalité écologique",
-      " marché de quotas)"
+      " marché de quotas)",
+      "discuter l'analyse coûts-bénéfices comme méthode d'aide à la décision appliquée à l'environnement et la question de l'actualisation temporelle des impacts à long terme'",
+      "décrire le cadre hétérodoxe de l'économie écologique'"
     ]
   },
   {
     "code": "EV02R",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Economie et éthique de l'environnement",
     "diplome": "UV ing.",
     "Cvolume": "45",
@@ -1600,10 +1600,6 @@
     "commentaires": "Mineur : EDD|Prérequis : MATH01 ou MT11",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "écologique, marché de quotas)",
-    "programme9": "discuter l'analyse coûts-bénéfices comme méthode d'aide à la décision appliquée à l'environnement et la ",
-    "programme10": "question de l'actualisation temporelle des impacts à long terme'",
-    "programme11": "décrire le cadre hétérodoxe de l'économie écologique'",
     "objectif": [
       "En économie de l'environnement'",
       " des instruments incitatifs sont proposés et mis en oeuvre pour réguler  ",
@@ -1615,13 +1611,17 @@
       "ses résultats, y intégrer la notion conceptuelle et pratique des externalités environnementales et des biens",
       "communs et biens publics",
       "comprendre les principes des instruments économiques des politiques d'environnement (taxes et permis)",
-      "savoir poser et résoudre certains problèmes appliqués associés et connaître leur portée pratique (fiscalité"
+      "savoir poser et résoudre certains problèmes appliqués associés et connaître leur portée pratique (fiscalité",
+      "écologique, marché de quotas)",
+      "discuter l'analyse coûts-bénéfices comme méthode d'aide à la décision appliquée à l'environnement et la ",
+      "question de l'actualisation temporelle des impacts à long terme'",
+      "décrire le cadre hétérodoxe de l'économie écologique'"
     ],
     "semestre": "Automne / Printemps"
   },
   {
     "code": "EV03",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Droit de l'environnement",
     "diplome": "UV ing. ou UV CS pour mast.",
     "mineur": "EDD",
@@ -1632,7 +1632,6 @@
     "commentaires": "Mineur : EDD",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "réaliser une analyse critique des différents mécanismes du droit de l'environnement'",
     "objectif": [
       "étude du fonctionnement des instruments juridiques du droit de l'environnement'"
     ],
@@ -1643,13 +1642,14 @@
       "prévention",
       "précaution",
       " pollueur-payeur) ",
-      "réaliser une veille règlementaire"
+      "réaliser une veille règlementaire",
+      "réaliser une analyse critique des différents mécanismes du droit de l'environnement'"
     ],
     "semestre": "Automne"
   },
   {
     "code": "EV04",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Risques environnementaux : gestion et controverses",
     "diplome": "UV ing. ou UV CS pour mast.",
     "mineur": "EDD",
@@ -1671,7 +1671,7 @@
   },
   {
     "code": "EV05",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Gestion des risques environnementaux",
     "diplome": "UV ing. ou UV CS pour mast.",
     "credits": "4",
@@ -1691,10 +1691,6 @@
     "commentaires": "Maîtrise du français niveau B2*|Intervenants extérieurs supérieur à 75%***",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "recevoir la certification bilan carbone par l'Institut français du carbone'",
-    "programme9": "élaborer une politique de communication environnementale et comprendre la fiscalité environnementale",
-    "programme10": "illustrer les connaissances acquises sur un projet en lien avec une problématique industrielle, sociétale ou de recherche",
-    "programme11": "visite d'un site industriel ayant mis en place une politique RSE'",
     "objectif": [
       "Sensibiliser les futurs ingénieurs aux problématiques environnementales d'une activité industrielle et les former aux outils et méthodes de l'analyse et du management environnemental."
     ],
@@ -1705,7 +1701,11 @@
       "être sensibilisé aux différents outils d'audit et d'analyse environnementale (ACV'",
       "Audit energétique et déchets",
       "Empreinte écologique",
-      " eau)"
+      " eau)",
+      "recevoir la certification bilan carbone par l'Institut français du carbone'",
+      "élaborer une politique de communication environnementale et comprendre la fiscalité environnementale",
+      "illustrer les connaissances acquises sur un projet en lien avec une problématique industrielle, sociétale ou de recherche",
+      "visite d'un site industriel ayant mis en place une politique RSE'"
     ],
     "semestre": "Printemps"
   },
@@ -1762,7 +1762,7 @@
   },
   {
     "code": "EV13",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Introduction aux sciences et à l'ingénierie de l'environnement",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -1773,10 +1773,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 15%*|Drapeau français anglais",
     "credits": "4",
     "langues": "ANG, FRA",
-    "programme8": "prédire et réduire les principaux types de pollutions de l'air'",
-    "programme9": " en mettant en place des stratégies de contrôle des émissions dans l'air'",
-    "programme10": " du réchauffement climatique et du trou dans la couche d'ozone'",
-    "programme11": "prédire et réduire la pollution de l'eau'",
     "objectif": [
       "Aujourd'hui'",
       " nous devons faire face aux pollutions de l'eau'",
@@ -1787,7 +1783,11 @@
       " d'où la nécessité de mettre en place une stratégie des énergies renouvelables et un système de contrôle des pollutions."
     ],
     "programme": [
-      "maîtriser les bases des problèmes environnementaux, les notions de ressources naturelles (renouvelables, non-renouvelables et perpétuelles) et la durabilité"
+      "maîtriser les bases des problèmes environnementaux, les notions de ressources naturelles (renouvelables, non-renouvelables et perpétuelles) et la durabilité",
+      "prédire et réduire les principaux types de pollutions de l'air'",
+      " en mettant en place des stratégies de contrôle des émissions dans l'air'",
+      " du réchauffement climatique et du trou dans la couche d'ozone'",
+      "prédire et réduire la pollution de l'eau'"
     ],
     "semestre": "Automne"
   },
@@ -1836,7 +1836,7 @@
   },
   {
     "code": "FAH05S",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Environnement and SD in China",
     "diplome": "UV ing.",
     "credits": "3",
@@ -1866,10 +1866,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75%***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " etc.",
-    "programme9": "Expression écrite:",
-    "programme10": "maîtriser la syntaxe des phrases minimales et les mécanismes grammaticaux de base: conjugaisons, accords en genre et en nombre des noms et des adjectifs, emploi des pronoms possessifs, etc.",
-    "programme11": "maîtriser la rédaction des écrits simples de la communication quotidienne: SMS, courriels, carte postale, prise de rendez-vous, etc.",
     "objectif": [
       "Ce cours prépare les étudiants n'ayant jamais appris le français auparavant à atteindre les objectifs du niveau A1 en compréhension et en expression écrite. Il s'adresse aux étudiants ayant suivi le cours SFA1 pendant le stage d'inter-semestre."
     ],
@@ -1880,7 +1876,11 @@
       "nationalité",
       "âge",
       "profession",
-      " centres d'intérêt'"
+      " centres d'intérêt'",
+      " etc.",
+      "Expression écrite:",
+      "maîtriser la syntaxe des phrases minimales et les mécanismes grammaticaux de base: conjugaisons, accords en genre et en nombre des noms et des adjectifs, emploi des pronoms possessifs, etc.",
+      "maîtriser la rédaction des écrits simples de la communication quotidienne: SMS, courriels, carte postale, prise de rendez-vous, etc."
     ],
     "semestre": "Automne / Printemps"
   },
@@ -1895,7 +1895,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75%***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "être capable de se présenter dans une prise de parole continue",
     "objectif": [
       "Ce cours prépare les étudiants n'ayant jamais appris le français auparavant à atteindre les objectifs du niveau A1 en compréhension et en expression orale. Il s'adresse aux étudiants ayant suivi le cours SFA1 pendant le stage d'inter-semestre."
     ],
@@ -1906,7 +1905,8 @@
       " mode d'emploi'",
       " etc.) ",
       "Expression orale:",
-      "savoir poser des questions simples sur des sujets familiers ou sur ses besoins immédiats, pouvoir répondre à de telles questions"
+      "savoir poser des questions simples sur des sujets familiers ou sur ses besoins immédiats, pouvoir répondre à de telles questions",
+      "être capable de se présenter dans une prise de parole continue"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -1921,10 +1921,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75%***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "Expression écrite:",
-    "programme9": "maitriser les savoir-faire grammaticaux visés au niveau A2: expression du passé et du futur, constructions interro-négatives et exclamatives, formes simples des pronoms personnels et relatifs, etc.",
-    "programme10": "savoir donner une brève description d'un événement vécu'",
-    "programme11": " de ses activités ou de ses expériences personnelles  dans des phrases construites en exploitant les connaissances grammaticales et lexicales acquises au niveau A2",
     "objectif": [
       "Ce cours prépare les étudiants à atteindre les objectifs du niveau A2 en compréhension et en expression écrite. Il s'adresse en particulier aux étudiants ayant suivi le cours SFA2 pendant le stage d'intersemestre."
     ],
@@ -1935,7 +1931,11 @@
       "identifier la fonction des messages reçus dans la vie quotidienne: demande d'informations'",
       "invitation",
       "instructions",
-      " etc."
+      " etc.",
+      "Expression écrite:",
+      "maitriser les savoir-faire grammaticaux visés au niveau A2: expression du passé et du futur, constructions interro-négatives et exclamatives, formes simples des pronoms personnels et relatifs, etc.",
+      "savoir donner une brève description d'un événement vécu'",
+      " de ses activités ou de ses expériences personnelles  dans des phrases construites en exploitant les connaissances grammaticales et lexicales acquises au niveau A2"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -1975,7 +1975,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75 % ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "être capable d'écrire des essais sur des sujets en rapport avec ses centres d'intérêt personnels'",
     "objectif": [
       "Ce cours prépare les étudiants à atteindre les objectifs du niveau B1 en compréhension et en expression écrites. Il s'adresse en particulier aux étudiants ayant suivi le cours SFA3 pendant le stage d'intersemestre."
     ],
@@ -1986,7 +1985,8 @@
       "acquérir des repères culturels au sujet de la société française, de ses composantes et de leurs attitudes",
       "Expression écrite:",
       "maîtriser les savoir-faire grammaticaux visés au niveau B1: discours rapporté, temps du récit, emploi du subjonctif à l'oral', construction de phrases simples avec adjonction de groupes prépositionnel, etc.",
-      "réussir à prendre des notes lors d'un cours ou d'une conférence à condition que le sujet appartienne à ses centres d'intérêt et que l'exposé soit clair et bien structuré'"
+      "réussir à prendre des notes lors d'un cours ou d'une conférence à condition que le sujet appartienne à ses centres d'intérêt et que l'exposé soit clair et bien structuré'",
+      "être capable d'écrire des essais sur des sujets en rapport avec ses centres d'intérêt personnels'"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -2001,7 +2001,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75% ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "réussir à expliquer sa pensée sur un sujet abstrait ou culturel (un film, des livres, de la musique, etc.)",
     "objectif": [
       "Ce cours prépare les étudiants à atteindre les objectifs du niveau B1 en compréhension et en expression orales. Il s'adresse en particulier aux étudiants ayant suivi le cours SFB1 pendant le stage d'intersemestre."
     ],
@@ -2012,7 +2011,8 @@
       "Expression orale:",
       "s'exprimer suffisamment bien pour pouvoir collaborer à la réalisation d'un travail de groupe'",
       " dans le contexte par exemple d'une activité de vie associative ou d'un projet d'études'",
-      "être capable d'exposer en détail ses expériences en décrivant ses sentiments et ses réactions'"
+      "être capable d'exposer en détail ses expériences en décrivant ses sentiments et ses réactions'",
+      "réussir à expliquer sa pensée sur un sujet abstrait ou culturel (un film, des livres, de la musique, etc.)"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -2027,7 +2027,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75% ***|",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "réussir à résumer les informations et les opinions exprimées par un texte ou par un document sonore en vue de les commenter et de les critiquer",
     "objectif": [
       "Ce cours prépare les étudiants à atteindre les objectifs du niveau B2 en compréhension et en expression écrites. Il s'adresse en particulier aux étudiants ayant suivi le cours SFB2 pendant le stage d'intersemestre."
     ],
@@ -2038,7 +2037,8 @@
       "se préparer à réussir l'épreuve de compréhension écrite proposée au TCF et au DELF'",
       "Expression écrite:",
       "maîtriser les structures syntaxiques dont la connaissance est demandée au niveau B2, structures de la phrase complexe en particulier",
-      "écrire un essai ou un rapport en développant une argumentation de façon méthodique et en explicitant clairement les relations logiques entre ses idées"
+      "écrire un essai ou un rapport en développant une argumentation de façon méthodique et en explicitant clairement les relations logiques entre ses idées",
+      "réussir à résumer les informations et les opinions exprimées par un texte ou par un document sonore en vue de les commenter et de les critiquer"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -2066,7 +2066,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75% ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "conduire un entretien avec efficacité et aisance, en s'écartant spontanément des questions préparées et en exploitant et relançant les réponses intéressantes",
     "objectif": [
       "Ce cours prépare les étudiants à atteindre les objectifs du niveau B2 en compréhension et en expression orales. Il s'adresse en particulier aux étudiants ayant suivi le cours SFB2 pendant le stage d'intersemestre."
     ],
@@ -2077,7 +2076,8 @@
       "suivre une conversation animée entre locuteurs natifs",
       "Expression orale:",
       "développer une argumentation en enchainant avec logique des arguments et en mettant en évidence les points importants",
-      "participer activement à des discussions informelles en exposant ses opinions et en réagissant aux arguments d'autrui'"
+      "participer activement à des discussions informelles en exposant ses opinions et en réagissant aux arguments d'autrui'",
+      "conduire un entretien avec efficacité et aisance, en s'écartant spontanément des questions préparées et en exploitant et relançant les réponses intéressantes"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -2092,10 +2092,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75% ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "Expression écrite:",
-    "programme9": "maîtriser les structures grammaticales de la phrase complexe et les connecteurs argumentatifs en vue de rédiger des textes d'opinion clairs et bien construits'",
-    "programme10": "réussir à développer une argumentation en intégrant des arguments et des exemples et en usant de procédés rhétoriques",
-    "programme11": "acquérir une meilleure orthographe",
     "objectif": [
       "Ce cours prépare les étudiants à atteindre les objectifs du niveau C1 en compréhension et en expression écrite. Il les accompagne dans la lecture de textes empruntés au journalisme d'analyse'",
       " à des essais sociologiques et à la littérature. Il permet également de travailler la méthodologie des épreuves d'expression écrite proposées au niveau C1'",
@@ -2106,7 +2102,11 @@
       "réussir à s'orienter dans le cheminement logique des textes argumentatifs'",
       " savoir repérer les indices des stratégies mises en oeuvre",
       "développer le regard permettant d'apprécier la dimension stylistique du texte littéraire'",
-      "accroître sa connaissance du vocabulaire idiomatique et en particulier du vocabulaire imagé"
+      "accroître sa connaissance du vocabulaire idiomatique et en particulier du vocabulaire imagé",
+      "Expression écrite:",
+      "maîtriser les structures grammaticales de la phrase complexe et les connecteurs argumentatifs en vue de rédiger des textes d'opinion clairs et bien construits'",
+      "réussir à développer une argumentation en intégrant des arguments et des exemples et en usant de procédés rhétoriques",
+      "acquérir une meilleure orthographe"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -2260,9 +2260,6 @@
     "commentaires": "UE hors profil",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " à l'explication et à l'analyse'",
-    "programme9": "développer la capacité de travailler à l'autocorrection de ses erreurs'",
-    "programme10": "maîtriser les paramètres d'une présentation orale fluide et synthétique'",
     "objectif": [
       "A l'issue du stage ST05'",
       " ce cours accompagne les étudiants étrangers dans la rédaction de leur rapport de stage et dans la préparation de la soutenance. Les interventions concernent uniquement la correction de l'expression et de la présentation."
@@ -2273,7 +2270,10 @@
       "interpréter des observations et des témoignages, en faire des informations",
       "classer celles-ci par ordre d'intérêt'",
       " sélectionner et reformuler les plus pertinentes en vue de les intégrer au rapport",
-      "maîtriser le matériel linguistique utile à la description d'expériences'"
+      "maîtriser le matériel linguistique utile à la description d'expériences'",
+      " à l'explication et à l'analyse'",
+      "développer la capacité de travailler à l'autocorrection de ses erreurs'",
+      "maîtriser les paramètres d'une présentation orale fluide et synthétique'"
     ],
     "semestre": "Printemps"
   },
@@ -2326,7 +2326,6 @@
     "commentaires": "ouverte à l'alternance'",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "modéliser un processus de maintenance",
     "objectif": [
       "La maintenance a pour but le maintien des équipements et la diminution des pannes. Il faut étudier les techniques, technologies et politiques de maintenance et les méthodes d'analyse', d'évaluation et d'optimisation pour assurer la disponibilité'"
     ],
@@ -2337,7 +2336,8 @@
       " maintenance proactive",
       "mettre en place des indicateurs de suivi",
       "évaluer les performances de maintenance",
-      "optimiser la maintenance pour assurer la disponibilité du système"
+      "optimiser la maintenance pour assurer la disponibilité du système",
+      "modéliser un processus de maintenance"
     ],
     "semestre": "Printemps"
   },
@@ -2686,10 +2686,6 @@
     "commentaires": "Mineur : GEA, GEB, GEC, GED",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "bilan",
-    "programme9": "annexe",
-    "programme10": "SIG",
-    "programme11": " capacité d'autofinancement'",
     "objectif": [
       "découvrir et comprendre en début de cursus le fonctionnement des différents rouages de l'entreprise'",
       "acquérir les éléments fondamentaux de la gestion d'entreprise en y incluant les bases de la comptabilité générale'"
@@ -2701,7 +2697,11 @@
       "amortissements",
       "cessions",
       "provisions",
-      "comptes de résultat"
+      "comptes de résultat",
+      "bilan",
+      "annexe",
+      "SIG",
+      " capacité d'autofinancement'"
     ],
     "semestre": "Printemps"
   },
@@ -2829,10 +2829,6 @@
     "commentaires": "Mineur : GEA, GEB, GEE, Innove-UT|Picto UE réalisée entièrement en ligne ou dématérialisée",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " innovation technologique : les NTIC...)",
-    "programme9": "qu'est-ce que conduire un projet innovant? (management innovation : modèles par phases'",
-    "programme10": "logique de projet",
-    "programme11": " capitalisation des innovations...)",
     "objectif": [
       "présenter les différents processus d'innovation mis en place par les entreprises dans ses dimensions technologiques et organisationnelles'",
       "en étudier les spécificités et les difficultés"
@@ -2844,7 +2840,11 @@
       " application de l'innovation)",
       "qu'est-ce qu'une entreprise innovante? (alliances et stratégies innovantes'",
       "structures innovantes",
-      "rôle de la RD"
+      "rôle de la RD",
+      " innovation technologique : les NTIC...)",
+      "qu'est-ce que conduire un projet innovant? (management innovation : modèles par phases'",
+      "logique de projet",
+      " capitalisation des innovations...)"
     ],
     "semestre": "Automne"
   },
@@ -2923,9 +2923,6 @@
     "commentaires": "Mineur : GEE, Innove-UT|Picto UE réalisée entièrement en ligne ou dématérialisée|Examen sur table",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "des activités en ligne permettant de travailler la recherche d'information'",
-    "programme9": " l'élaboration collaborative de bases de connaissances et de gestion de la propriété industrielle'",
-    "programme10": "une simulation complète de la gestion de projet innovant, dans ses trois dimensions, sera réalisée sous forme de projet",
     "objectif": [
       "Acquérir des compétences en gestion de l'innovation dans ses dimensions humaines'",
       "financières et organisationnelles",
@@ -2936,7 +2933,10 @@
       "gestion de projet d'innovation : financement'",
       "organisation",
       " propriété industrielle",
-      "gestion d'une équipe innovante : management de la créativité'"
+      "gestion d'une équipe innovante : management de la créativité'",
+      "des activités en ligne permettant de travailler la recherche d'information'",
+      " l'élaboration collaborative de bases de connaissances et de gestion de la propriété industrielle'",
+      "une simulation complète de la gestion de projet innovant, dans ses trois dimensions, sera réalisée sous forme de projet"
     ],
     "semestre": "Automne"
   },
@@ -3025,10 +3025,6 @@
     "commentaires": "Maîtrise de français : *   niveau B2",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "réaliser un projet complet en petite équipe afin de participer à l'ensemble des étapes d'un projet d'ingénierie logicielle'",
-    "programme9": "se former en autonomie à la maîtrise d'un langage de programmation (Python'",
-    "programme10": "Javascript",
-    "programme11": " Ruby ou Lua)",
     "objectif": [
       "Comprendre et mettre en pratique les liens entre spécification, implémentation et tests au coeur de la démarche",
       "d'ingénierie logicielle pour le développement de projets logiciels efficients'",
@@ -3040,7 +3036,11 @@
       "spécifier des formats de données et des traitements",
       "contrôler la conformité à une spécification",
       "conduire une inspection des sources d'un projet logiciel'",
-      "coordonner des développements en équipe"
+      "coordonner des développements en équipe",
+      "réaliser un projet complet en petite équipe afin de participer à l'ensemble des étapes d'un projet d'ingénierie logicielle'",
+      "se former en autonomie à la maîtrise d'un langage de programmation (Python'",
+      "Javascript",
+      " Ruby ou Lua)"
     ],
     "semestre": "Automne"
   },
@@ -3094,10 +3094,6 @@
     "THEvolume": "80",
     "credits": "6",
     "langues": "FRA",
-    "programme8": " open-shop) et machines parallèles",
-    "programme9": "mettre en oeuvre les techniques d'ordonnancement de projet'",
-    "programme10": "modéliser un problème de planification et d'approvisionnement (lot-sizing) et mettre en oeuvre des méthodes de résolution (Wagner-Within'",
-    "programme11": "Silver Meal",
     "objectif": [
       "La planification de la charge de production et des approvisionnements ; et le séquencement des tâches ainsi que l'affectation des ressources doivent être optimisés pour minimiser les coûts liés en respectant certaines contraintes."
     ],
@@ -3108,7 +3104,11 @@
       "EDD",
       " etc.)",
       "mettre en oeuvre les méthodes pour les problèmes d'ordonnancement en atelier (Flow-shop'",
-      "job-shop"
+      "job-shop",
+      " open-shop) et machines parallèles",
+      "mettre en oeuvre les techniques d'ordonnancement de projet'",
+      "modéliser un problème de planification et d'approvisionnement (lot-sizing) et mettre en oeuvre des méthodes de résolution (Wagner-Within'",
+      "Silver Meal"
     ]
   },
   {
@@ -3124,8 +3124,6 @@
     "commentaires": "ouverte à l'alternance'",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "programmer des modèles mathématiques issus de la recherche opérationnelle et des méthodes de résolution (VBA, solveur)",
-    "programme9": "choisir puis étudier un article dans les bases de données scientifiques",
     "objectif": [
       "Cette unité de valeur permet d'étudier les méthodes de prévision de la demande (à court et long terme) et les politiques de gestion de stocks dans différentes configurations (mono'",
       "multi-produit",
@@ -3136,7 +3134,9 @@
     "programme": [
       "classifier des produits et valoriser un stock",
       "choisir et appliquer les modèles de prévision de la demande à court et long terme",
-      "choisir et mettre en place une politique adéquate de stockage, déterminer les paramètres (période de révision, quantité à commander, seuil de déclenchement, stock de sécurité)"
+      "choisir et mettre en place une politique adéquate de stockage, déterminer les paramètres (période de révision, quantité à commander, seuil de déclenchement, stock de sécurité)",
+      "programmer des modèles mathématiques issus de la recherche opérationnelle et des méthodes de résolution (VBA, solveur)",
+      "choisir puis étudier un article dans les bases de données scientifiques"
     ],
     "semestre": "Automne"
   },
@@ -3193,7 +3193,6 @@
     "commentaires": "Maîtrise du français : *   niveau B2|Intervenants supérieur ou égal à ** 40 %",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "connaître les limites juridiques à la cybersurveillance",
     "objectif": [
       "Tout responsable de la sécurité des systèmes d'information se doit de connaître les références juridiques liées aux développements et aux usages des technologies numériques."
     ],
@@ -3204,7 +3203,8 @@
       " Carayon",
       "connaître la définition de la cyber criminalité dans le droit pénal français",
       "savoir sécuriser juridiquement un projet informatique",
-      "savoir adapter les notions de propriété intellectuelle aux créations logicielles"
+      "savoir adapter les notions de propriété intellectuelle aux créations logicielles",
+      "connaître les limites juridiques à la cybersurveillance"
     ],
     "semestre": "Automne"
   },
@@ -3220,7 +3220,6 @@
     "commentaires": "Intervenants extérieurs supérieur à 15%*",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "connaître les vulnérabilités et les enjeux de sécurité des architectures de type Cloud et les systèmes SCADA",
     "objectif": [
       "Il existe des techniques de base pour sécuriser les composants d'un système : postes de travail'",
       "serveurs",
@@ -3231,7 +3230,8 @@
     "programme": [
       "connaître les enjeux de la sécurité physique",
       "savoir protéger les stations de travail et les serveurs Microsoft",
-      "savoir protéger les serveurs web"
+      "savoir protéger les serveurs web",
+      "connaître les vulnérabilités et les enjeux de sécurité des architectures de type Cloud et les systèmes SCADA"
     ],
     "semestre": "Automne"
   },
@@ -3352,7 +3352,7 @@
   },
   {
     "code": "HT02",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Les ingénieurs et les techniciens dans le temps",
     "diplome": "UV ing.",
     "Cvolume": "26",
@@ -3371,7 +3371,7 @@
   },
   {
     "code": "HT03",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Regards sur l'histoire de l'art moderne et contemporain",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -3396,7 +3396,7 @@
   },
   {
     "code": "HT05",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Histoire de la physique et de l'astronomie",
     "diplome": "UV ing.",
     "Cvolume": "26",
@@ -3405,9 +3405,6 @@
     "commentaires": "Maîtrise français niveau C2***",
     "credits": "4",
     "langues": "FRA",
-    "programme9": "questionner les concepts scientifiques, leur sens, ainsi que les changements de paradigmes, en exerçant sa curiosité et son esprit critique",
-    "programme10": "mobiliser ses connaissances scientifiques pour les articuler et les situer dans l'élaboration de la physique et de l'astronomie'",
-    "programme11": "relier les connaissances scientifiques à leur contexte historique, pour en comprendre leur émergence, leur évolution et leur portée",
     "objectif": [
       "L'histoire de la physique et celle de l'astronomie seront abordées jusqu'aux développements récents'",
       "et des plus surprenants",
@@ -3419,13 +3416,16 @@
     ],
     "programme": [
       " l'astronomie'",
-      " l'astrophysique et la cosmologie."
+      " l'astrophysique et la cosmologie.",
+      "questionner les concepts scientifiques, leur sens, ainsi que les changements de paradigmes, en exerçant sa curiosité et son esprit critique",
+      "mobiliser ses connaissances scientifiques pour les articuler et les situer dans l'élaboration de la physique et de l'astronomie'",
+      "relier les connaissances scientifiques à leur contexte historique, pour en comprendre leur émergence, leur évolution et leur portée"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "HT07",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Géopolitique du monde contemporain",
     "diplome": "UV ing. ou UV CS pour mast.",
     "Cvolume": "26",
@@ -3450,7 +3450,7 @@
   },
   {
     "code": "HT10",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Histoire et épistémologie de la physique quantique",
     "diplome": "UV ing.",
     "Cvolume": "23",
@@ -3473,7 +3473,7 @@
   },
   {
     "code": "HT11",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Histoire et technologie des objets quotidiens",
     "diplome": "UV ing.",
     "TPvolume": "45",
@@ -3481,8 +3481,6 @@
     "commentaires": "Maîtrise français niveau B2 *",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "imaginer une évolution/innovation de l'objet'",
-    "programme9": "communiquer de façon vulgarisée selon différents médias",
     "objectif": [
       "Les objets de la vie quotidienne relient des propriétés et des fonctions qui évoluent dans l'histoire de la société'",
       "corrélativement aux progrès des sciences et des techniques",
@@ -3494,13 +3492,15 @@
       "comprendre l'impact sociétal de l'évolution de la technologie'",
       " et réciproquement",
       "identifier les éléments fonctionnels essentiels d'un objet technologique'",
-      "faire le lien entre un principe physique et son application technologique"
+      "faire le lien entre un principe physique et son application technologique",
+      "imaginer une évolution/innovation de l'objet'",
+      "communiquer de façon vulgarisée selon différents médias"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "HT12",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Conférences de l'Ecole du Louvres",
     "diplome": "UV ing.",
     "Cvolume": "12",
@@ -3521,7 +3521,7 @@
   },
   {
     "code": "HT13",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Humanités techniques et design d'artefacts",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -3548,10 +3548,6 @@
     "THEvolume": "80",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "connaître différentes techniques de codage de source discrète et le théorème du codage de source (premier théorème de Shannon)",
-    "programme9": "être familiarisé avec les principes du codage de canal discret, la capacité du canal et le deuxième théorème de Shannon",
-    "programme10": "comprendre les codes de'tecteurs et correcteurs d'erreurs (codage et décodage des codes linéaires'",
-    "programme11": " codes de",
     "objectif": [
       "L'information constitue l'une des principales richesses des sciences et technologies des communications et des données. Aussi bien en acquisition'",
       "traitement",
@@ -3562,7 +3558,11 @@
       "comprendre le modèle de communication désigné sous le nom de paradigme de Shannon",
       "acquérir les notions de base de la mesure de l'information (entropie'",
       "information mutuelle",
-      " information mutuelle moyenne)"
+      " information mutuelle moyenne)",
+      "connaître différentes techniques de codage de source discrète et le théorème du codage de source (premier théorème de Shannon)",
+      "être familiarisé avec les principes du codage de canal discret, la capacité du canal et le deuxième théorème de Shannon",
+      "comprendre les codes de'tecteurs et correcteurs d'erreurs (codage et décodage des codes linéaires'",
+      " codes de"
     ],
     "semestre": "Automne"
   },
@@ -3759,10 +3759,6 @@
     "commentaires": "Maîtrise du français niveau B2*|Intervenants extérieurs supérieur à 15%*",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "d'innovations technologiques récentes (mobilité'",
-    "programme9": "géolocalisation",
-    "programme10": "Big Data",
-    "programme11": " Web 2.0) pour ces enjeux",
     "objectif": [
       "Les systèmes d'informations des entreprises supportent grâce au Web les grandes fonctions de la Gestion de Relation Client (CRM)",
       " du Commerce électronique et de l'EDI (échanges de données informatisées) ; leurs architectures doivent être adaptées finement aux besoins B2C ou B2B."
@@ -3773,7 +3769,11 @@
       " incluant l'architecture d'information nécessaire'",
       "rassembler, formaliser et valider, dans un cahier des charges et des maquettes cohérents, les exigences techniques et non-techniques pour de tels  systèmes",
       "appliquer les technologies (services Web et différents niveaux de ces services - SaaS, PaaS, IaaS ) à des problèmes concrets de l'entreprise et de l'inter-entreprises'",
-      "modéliser les enjeux économiques et l'activité autour de ces systèmes afin d'organiser les avantages métiers "
+      "modéliser les enjeux économiques et l'activité autour de ces systèmes afin d'organiser les avantages métiers ",
+      "d'innovations technologiques récentes (mobilité'",
+      "géolocalisation",
+      "Big Data",
+      " Web 2.0) pour ces enjeux"
     ],
     "semestre": "Printemps"
   },
@@ -3788,10 +3788,6 @@
     "antecedent": "IF02",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "techniques et méthodologies d'audit : aspects conceptuels'",
-    "programme9": "organisationnels",
-    "programme10": "juridiques",
-    "programme11": " fiscaux et sociologiques",
     "objectif": [
       "étudier les bases des techniques de l'audit'",
       " permettant de conseiller les entreprises dans la conception et l'utilisation efficiente et efficace de leur système d'information et de décision'"
@@ -3802,7 +3798,11 @@
       "analyse des opportunités",
       "plan stratégique",
       " plan d'action'",
-      " schéma directeur)"
+      " schéma directeur)",
+      "techniques et méthodologies d'audit : aspects conceptuels'",
+      "organisationnels",
+      "juridiques",
+      " fiscaux et sociologiques"
     ]
   },
   {
@@ -3913,9 +3913,6 @@
     "commentaires": "Maîtrise du français : ***  niveau C2",
     "credits": "6",
     "langues": "FRA",
-    "programme8": " des activités métier) ",
-    "programme9": "se positionner comme acteur dans une organisation",
-    "programme10": "analyser les ressorts de la coopération et de l'engagement au travail'",
     "objectif": [
       "L'UV aborde la dimension formelle des organisations'",
       " puis s'appuie sur des grilles sociologiques pour se saisir de la coopération au travail. Le cours envisage enfin des enjeux « métiers » de l'ingénierie des Systèmes d'Information à l'aide de ces grilles."
@@ -3926,7 +3923,10 @@
       "conseil",
       " rapports maîtrise d'oeuvre/maîtrise d'ouvrage'",
       " etc.) ",
-      "aligner les systèmes d'information et l'organisation (du travail'"
+      "aligner les systèmes d'information et l'organisation (du travail'",
+      " des activités métier) ",
+      "se positionner comme acteur dans une organisation",
+      "analyser les ressorts de la coopération et de l'engagement au travail'"
     ],
     "semestre": "Printemps"
   },
@@ -3968,7 +3968,6 @@
     "antecedent": "LO02, LO14",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "la gestion de l'énergie des systèmes embarqués'",
     "objectif": [
       "aborder les Systèmes d'Information embarqués sous l'angle électronique'",
       "logiciel",
@@ -3979,7 +3978,8 @@
       "l'électronique des systèmes embarqués'",
       "les systèmes d'exploitations embarqués'",
       "le langage java embarqué",
-      "les bus de communication"
+      "les bus de communication",
+      "la gestion de l'énergie des systèmes embarqués'"
     ],
     "semestre": "Automne"
   },
@@ -4024,10 +4024,6 @@
     "commentaires": "ouverte à l'alternance|Maîtrise du français : * niveau B2|Intervenants supérieur ou égal à * 15%",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "comprendre et utiliser les changements de coordonnées, les transformations coordonnées géographiques Lambert",
-    "programme9": "comprendre les systèmes d'information géographique et leur utilisation pour cadastre'",
-    "programme10": "agriculture",
-    "programme11": "logistique",
     "objectif": [
       "donner les concepts de l'acquisition de données géographiques'",
       "du traitement",
@@ -4038,7 +4034,11 @@
     "programme": [
       "comprendre les notions fondamentales GNSS et les méthodes de mesures GNSS",
       "comprendre et utiliser le calcul de positionnement et mode absolu et en mode différentiel par mesures de pseudo-distances et par mesures de phases. Les orbites de satellites",
-      "comprendre la surface de référence, différents repères et leurs coordonnées associées"
+      "comprendre la surface de référence, différents repères et leurs coordonnées associées",
+      "comprendre et utiliser les changements de coordonnées, les transformations coordonnées géographiques Lambert",
+      "comprendre les systèmes d'information géographique et leur utilisation pour cadastre'",
+      "agriculture",
+      "logistique"
     ],
     "semestre": "Printemps"
   },
@@ -5067,7 +5067,6 @@
     "antecedent": "LG01, ou niveau A1/A2 ou test",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "écrire un texte simple et cohérent sur des sujets familiers ou d'intérêt personnel en se faisant relire'",
     "objectif": [
       "savoir communiquer dans la plupart des situations de la vie courante",
       "réviser très largement les principales structures de langue et les développer",
@@ -5081,7 +5080,8 @@
       " lettres...) ",
       "faire face à la majorité des situations dans un pays germanophone, demander des informations et y répondre",
       "prendre part de manière simple à une conversation sur des sujets familiers ou d'intérêt personnel'",
-      " donner son avis et exprimer ses raisons "
+      " donner son avis et exprimer ses raisons ",
+      "écrire un texte simple et cohérent sur des sujets familiers ou d'intérêt personnel en se faisant relire'"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -5205,7 +5205,7 @@
   },
   {
     "code": "LI01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Atelier d'écriture",
     "diplome": "UV ing.",
     "TDvolume": "45",
@@ -5223,7 +5223,7 @@
   },
   {
     "code": "LI03",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Art du récit, écriture de scénario",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -5363,7 +5363,6 @@
     "commentaires": "Maîtrise français niveau C2 ***",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "\tdéveloppement d'applications spécifiques pour la gestion des objets connectés'",
     "objectif": [
       "architecture des systèmes à base de microprocesseur microprocesseurs et mémoires",
       "développement d'applications en python du point de vue du capteur et du système embarqué'",
@@ -5379,7 +5378,8 @@
       "développer des applications complètes de gestion à distance de ces plate-formes",
       "Connaissances acquises : architectures logicielles et matérielles des plate-formes et modes de transmission sans fils utilisés dans l'internet des objets'",
       "Savoir faire acquis : programmation d'applications en Pyhton'",
-      "administration distante de systèmes embarqués"
+      "administration distante de systèmes embarqués",
+      "\tdéveloppement d'applications spécifiques pour la gestion des objets connectés'"
     ],
     "semestre": "Printemps"
   },
@@ -5418,8 +5418,6 @@
     "commentaires": "Maîtrise du francçais : *   niveau B2|Drapeau français anglais",
     "credits": "6",
     "langues": "ANG, FRA",
-    "programme8": " lancer de rayons",
-    "programme9": "savoir faire de l'Infographie 3D avec la bibliothèque graphique OpenGL'",
     "objectif": [
       "L'infographie 3D concerne les méthodes de représentation graphique d'objets ou de scènes 3D. Les applications sont nombreuses'",
       " de la CAO à la visualisation scientifique."
@@ -5430,7 +5428,9 @@
       "maîtriser les bases de visualisation 3D : transformations linéaires, systèmes de vue, projections perspectives",
       "connaître les rendus réalistes 3D : modèles d'ombrage'",
       "élimination des parties cachées",
-      "méthode de radiosité"
+      "méthode de radiosité",
+      " lancer de rayons",
+      "savoir faire de l'Infographie 3D avec la bibliothèque graphique OpenGL'"
     ],
     "semestre": "Printemps"
   },
@@ -6011,7 +6011,6 @@
     "commentaires": "nécessaire pour suivre OP01 et  NM01|Maîtrise du francçais : **  niveau C1",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "comprendre, mettre en oeuvre et utiliser des moyens de caractérisation structurelle des matériaux : interférométrie, réfractométrie, spectroscopies, diffraction des rayons X",
     "objectif": [
       "Les propriétés d'interaction entre les rayonnements et la matière sont utilisées pour la caractérisation structurale des matériaux, leur mise en forme, et pour le développement des nouvelles technologies (télécommunications, énergie, affichage, capteurs)."
     ],
@@ -6022,7 +6021,8 @@
       "réfraction",
       "diffraction",
       "absorption",
-      " émission"
+      " émission",
+      "comprendre, mettre en oeuvre et utiliser des moyens de caractérisation structurelle des matériaux : interférométrie, réfractométrie, spectroscopies, diffraction des rayons X"
     ]
   },
   {
@@ -6083,7 +6083,6 @@
     "commentaires": "bases de cristallographie requies|Maîtrise du français : *** niveau C2",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "comprendre le comportement de ces matériaux par la théorie des dislocations",
     "objectif": [
       "On trouve des matériaux métalliques partout dans nos sociétés industrialisées. Il s'agit ici de donner les principales connaissances sur ces alliages'",
       "sur leur comportement mécanique et leurs propriétés",
@@ -6094,7 +6093,8 @@
       "savoir interpréter les diagrammes binaires et les transformations isothermes",
       "être capable de prévoir la microstructure d'un alliage donné à partir d'un diagramme d'équilibre ou de diagrammes TTT/TRC lors d'un refroidissement rapide'",
       "connaître les traitements thermiques usuels",
-      "connaître les principales propriétés des alliages les plus courants, leur élaboration, leurs applications et leurs normalisations"
+      "connaître les principales propriétés des alliages les plus courants, leur élaboration, leurs applications et leurs normalisations",
+      "comprendre le comportement de ces matériaux par la théorie des dislocations"
     ]
   },
   {
@@ -6613,7 +6613,6 @@
     "commentaires": "Enseignement à Paris",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "administration (Windows, linux, réseau (DNS, nom de machine, firewall, routeur, service informatique), Déploiement ghost, Continuité de service",
     "objectif": [
       "Cette UE propose aux étudiants de découvrir les outils et connaissances techniques utilisés lors du développement et du déploiement d'un système d'information."
     ],
@@ -6624,7 +6623,8 @@
       "ferme de calcul",
       " Virtualisation)",
       "programmation (VBA, POO, java, Patron de conception, XML, script ant, outil de gestion de code, svn, github...)",
-      "architecture client-serveur (Architecture 3/3, SOA, technologies d'échange (webservice SOAP', REST, RMI, etc.)"
+      "architecture client-serveur (Architecture 3/3, SOA, technologies d'échange (webservice SOAP', REST, RMI, etc.)",
+      "administration (Windows, linux, réseau (DNS, nom de machine, firewall, routeur, service informatique), Déploiement ghost, Continuité de service"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -6681,9 +6681,6 @@
     "THEvolume": "60",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "mise en oeuvre sur un projet selon l'ISO14040 et avec un des outils d'ACV proposé (Simapro'",
-    "programme9": "Gabi",
-    "programme10": " OpenLCA)",
     "objectif": [
       "maîtriser la mise en oeuvre de l'Analyse de Cycle de Vie : comprendre la méthodologie'",
       " les outils et",
@@ -6695,7 +6692,10 @@
       "méthodes de calcul et indicateurs",
       "analyse de gravité, sensibilité et d'incertitude dans l'ACV'",
       "communication environnementale et ACV",
-      "bilan Carbone"
+      "bilan Carbone",
+      "mise en oeuvre sur un projet selon l'ISO14040 et avec un des outils d'ACV proposé (Simapro'",
+      "Gabi",
+      " OpenLCA)"
     ]
   },
   {
@@ -6708,7 +6708,6 @@
     "THEvolume": "60",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "nouvelles modalités de gouvernance, enjeux de l'acceptabilité sociale et de la participation du public'",
     "objectif": [
       "permettre le déploiement, le pilotage et l'effectivité de stratégies de développement durable'"
     ],
@@ -6719,7 +6718,8 @@
       "outils de diagnostic",
       " mise en oeuvre",
       "retours d'expériences de stratégies exemplaires d'entreprises et de territoires intégrant les principes du développement durable dans leur management'",
-      "management responsable"
+      "management responsable",
+      "nouvelles modalités de gouvernance, enjeux de l'acceptabilité sociale et de la participation du public'"
     ]
   },
   {
@@ -6755,7 +6755,6 @@
     "commentaires": "Maîtrise français niveau C2 ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " élaboration d'une table des matières anticipée détaillée'",
     "objectif": [
       "délivrer une méthodologie permettant à l'étudiant d'atteindre les objectifs de l'essai en environnement et développement durable'"
     ],
@@ -6766,7 +6765,8 @@
       " identification du directeur d'essai'",
       "élaboration du plan de travail de l'essai : identification des objectifs généraux et spécifiques'",
       "mise en contexte du sujet traité",
-      " définition d'une méthodologie et d'un échéancier appropriés'"
+      " définition d'une méthodologie et d'un échéancier appropriés'",
+      " élaboration d'une table des matières anticipée détaillée'"
     ],
     "semestre": "Automne"
   },
@@ -6804,7 +6804,6 @@
     "commentaires": "Visites en entreprises prévues",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "mix énergétique",
     "objectif": [
       "La transition énergétique passe par la connaissance de nouvelles technologies et de nouveaux composants. Cette UE propose d'avoir un regard scientifique sur ces différents aspects'"
     ],
@@ -6815,7 +6814,8 @@
       ".le stockage",
       "évolution de la chimie des carburants (passé/avenir)",
       "règlementation et environnement socio-politique de la transition",
-      "technologies et solutions modernes de production d'énergies'"
+      "technologies et solutions modernes de production d'énergies'",
+      "mix énergétique"
     ],
     "semestre": "Printemps"
   },
@@ -6931,10 +6931,6 @@
     "commentaires": "Drapeau français anglais",
     "credits": "4",
     "langues": "ANG, FRA",
-    "programme8": "dans le cadre d'un projet'",
-    "programme9": " savoir déployer une méthodologie de modélisation et d'optimisation sur un procédé (fabrication additive'",
-    "programme10": "procédé de mise en forme",
-    "programme11": " ...)",
     "objectif": [
       "Proposer une formation théorique et pratique aux techniques de modélisation et de méta-modélisation, de maillage et d'optimisation appliquées aux structures et procédés'"
     ],
@@ -6945,7 +6941,11 @@
       "connaître l'importance du maillage et les techniques de remaillage'",
       " du degré d'interpolation et des méthodes d'inversion'",
       "connaître les techniques de plan d'expériences numériques'",
-      "connaître les différentes approches d'optimisation y compris en contexte incertain et choisir une méthode en fonction des applications'"
+      "connaître les différentes approches d'optimisation y compris en contexte incertain et choisir une méthode en fonction des applications'",
+      "dans le cadre d'un projet'",
+      " savoir déployer une méthodologie de modélisation et d'optimisation sur un procédé (fabrication additive'",
+      "procédé de mise en forme",
+      " ...)"
     ],
     "semestre": "Automne"
   },
@@ -7011,10 +7011,6 @@
     "commentaires": "Drapeau français anglais",
     "credits": "6",
     "langues": "ANG, FRA",
-    "programme8": "connaître l'analyse des chocs'",
-    "programme9": "vibrations aléatoires",
-    "programme10": "étouffeur de vibrations",
-    "programme11": " décomposition modale",
     "objectif": [
       "Etre capable de prendre en compte les effets dynamiques et vibratoires sur les mouvements et les efforts de systèmes mécaniques."
     ],
@@ -7025,7 +7021,11 @@
       "savoir réaliser l'étude dynamique'",
       " énergétique et établir les équations de l'équilibre dynamique'",
       "savoir modéliser les systèmes discrets avec ou sans amortissement, savoir calculer leur réponse en oscillations libres et forcées",
-      "savoir modéliser les systèmes continus en oscillations libres et forcées"
+      "savoir modéliser les systèmes continus en oscillations libres et forcées",
+      "connaître l'analyse des chocs'",
+      "vibrations aléatoires",
+      "étouffeur de vibrations",
+      " décomposition modale"
     ],
     "semestre": "Automne"
   },
@@ -7343,7 +7343,7 @@
   },
   {
     "code": "MTC01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Musique Technologie et Création",
     "diplome": "UV ing.",
     "TDvolume": "30",
@@ -7481,8 +7481,6 @@
     "TPvolume": "12",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "traitement des données manquantes et aberrantes, à la détection des erreurs",
-    "programme9": "présentation et étude de cas pratiques (appliqué aux différents domaines du métier de l'ingénieur)",
     "objectif": [
       "L'objectif de cette UE est d'enseigner une démarche/méthodologie pour analyser les données en passant par des étapes fondamentales telles que : la description'",
       "la classification",
@@ -7498,7 +7496,9 @@
       "Analyse Factorielle des Correspondances",
       " Analyse des Correspondances Multiples ",
       "méthodes de modélisation par régression linéaire et régression logistique(variables discrètes)",
-      "méthodes de classification (logique floue et réseaux de neurones)"
+      "méthodes de classification (logique floue et réseaux de neurones)",
+      "traitement des données manquantes et aberrantes, à la détection des erreurs",
+      "présentation et étude de cas pratiques (appliqué aux différents domaines du métier de l'ingénieur)"
     ],
     "semestre": "Printemps"
   },
@@ -7551,7 +7551,6 @@
     "commentaires": "Maîtrise du français : *   niveau B2|Drapeau anglais/français|",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "traduire un algorithme simple en programme (découverte de deux langages:C et Visual Basic)",
     "objectif": [
       "La recherche de processus systématiques de résolution de problèmes requiert une démarche structurée qui conduit, dans le contexte de la programmation, à la production d'algorithmes.",
       "L'objectif est d'étudier la formalisation de problèmes'",
@@ -7563,7 +7562,8 @@
       "connaître les structures de contrôle",
       "connaitre les structures de données statiques et dynamiques",
       "maitriser l'approche descendante pour la résolution de problèmes'",
-      "avoir des notions sur l'évaluation des performances d'une solution'"
+      "avoir des notions sur l'évaluation des performances d'une solution'",
+      "traduire un algorithme simple en programme (découverte de deux langages:C et Visual Basic)"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -7581,10 +7581,6 @@
     "commentaires": "Picto pédagogie par projet",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "tableaux",
-    "programme9": "chaînes de caractères",
-    "programme10": "listes chaînées",
-    "programme11": " fichiers)",
     "objectif": [
       "En ingénierie, il est nécessaire de décrire la solution d'un problème en algorithme puis de le traduire en un programme. Cette UV permet de se familiariser à la programmation en langage C qui', avec ses différentes variantes, est le langage le plus utilisé."
     ],
@@ -7595,7 +7591,11 @@
       "opérateurs",
       "structures de contrôle",
       "fonctions",
-      "pointeurs"
+      "pointeurs",
+      "tableaux",
+      "chaînes de caractères",
+      "listes chaînées",
+      " fichiers)"
     ],
     "semestre": "Automne"
   },
@@ -7811,7 +7811,6 @@
     "commentaires": "Drapeau français anglais",
     "credits": "4",
     "langues": "ANG, FRA",
-    "programme8": "applications à différents types de (nano)émetteurs quantiques",
     "objectif": [
       "Connaître les bases théoriques des différentes spectroscopies et leur intérêt en nanotechnologie. Prévoir et interpréter des spectres. Connaître les dispositifs expérimentaux en spectroscopie, connaitre les différents types d'émetteurs quantiques."
     ],
@@ -7822,7 +7821,8 @@
       "absorption, fluorescence, émission",
       "spectroscopie Raman et IR, spectroscopie résolue en temps",
       "caractéristiques des appareils (sources, détection, dispersion), spectrométrie à transformée de Fourier",
-      "filtrage spatial, filtrage spectral, impulsions ultra-brèves"
+      "filtrage spatial, filtrage spectral, impulsions ultra-brèves",
+      "applications à différents types de (nano)émetteurs quantiques"
     ],
     "semestre": "Automne"
   },
@@ -7994,8 +7994,6 @@
     "THEvolume": "60",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " job shop)et approches de résulotion",
-    "programme9": "mini-projets:proposition d'algorithmes de résolution simples pour la résolution de certains problèmes simplifiés d'ordonnancement'",
     "objectif": [
       "étudier les principales approches pour la résolution de problèmes de planification et d'ordonnancement de la production'"
     ],
@@ -8006,7 +8004,9 @@
       "ordonnancement central et ordonnancement de projets",
       "principaux problèmes d'ordonnancement (une machine'",
       "machines parallèles",
-      "flow shop"
+      "flow shop",
+      " job shop)et approches de résulotion",
+      "mini-projets:proposition d'algorithmes de résolution simples pour la résolution de certains problèmes simplifiés d'ordonnancement'"
     ],
     "semestre": "Automne"
   },
@@ -8020,8 +8020,6 @@
     "THEvolume": "60",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " job shop) et  approches de résulotion",
-    "programme9": "mini-projets : proposition d'algorithmes de résolution simples pour la résolution de certains problèmes simplifiés d'ordonnancement'",
     "objectif": [
       "étudier les principales approches pour la résolution de problèmes de planification et d'ordonnancement de la production'"
     ],
@@ -8032,7 +8030,9 @@
       "ordonnancement central et ordonnancement de projets",
       "principaux problèmes d'ordonnancement (une machine'",
       "machines parallèles",
-      "flow shop"
+      "flow shop",
+      " job shop) et  approches de résulotion",
+      "mini-projets : proposition d'algorithmes de résolution simples pour la résolution de certains problèmes simplifiés d'ordonnancement'"
     ],
     "semestre": "Printemps"
   },
@@ -8084,8 +8084,6 @@
     "THEvolume": "60",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "introduction à la fiabilité dynamique",
-    "programme9": "mini-projets:mises en oeuvre des méthodes présentées sur ateliers logiciels de sûreté de fonctionnement",
     "objectif": [
       "acquérir et maîtriser les notions de bases en théorie de la fiabilité des systèmes"
     ],
@@ -8096,7 +8094,9 @@
       "modèles markoviens (systèmes réparables, à composants dépendants)",
       "modèles de politiques de maintenance préventive",
       "défaillances dépendantes (de cause commune)",
-      "sûreté des sytèmes instrumentés de sécurité"
+      "sûreté des sytèmes instrumentés de sécurité",
+      "introduction à la fiabilité dynamique",
+      "mini-projets:mises en oeuvre des méthodes présentées sur ateliers logiciels de sûreté de fonctionnement"
     ],
     "semestre": "Automne"
   },
@@ -8110,8 +8110,6 @@
     "THEvolume": "60",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "introduction à la fiabilité dynamique",
-    "programme9": "mini-projets : mises en oeuvre des méthodes présentées sur ateliers logiciels de sûreté de fonctionnement",
     "objectif": [
       "acquérir et maîtriser les notions de bases en théorie de la fiabilité des systèmes"
     ],
@@ -8122,7 +8120,9 @@
       "modèles markoviens (systèmes réparables, à composants dépendants)",
       "modèles de politiques de maintenance préventive",
       "défaillances dépendantes (de cause commune)",
-      "sûreté des sytèmes instrumentés de sécurité"
+      "sûreté des sytèmes instrumentés de sécurité",
+      "introduction à la fiabilité dynamique",
+      "mini-projets : mises en oeuvre des méthodes présentées sur ateliers logiciels de sûreté de fonctionnement"
     ],
     "semestre": "Printemps"
   },
@@ -8136,7 +8136,6 @@
     "THEvolume": "60",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "mini-projets en Matlab",
     "objectif": [
       "étudier les méthodes de reconnaissance des formes les plus récentes et leurs mises en oeuvre dans un contexte de surveillance"
     ],
@@ -8147,7 +8146,8 @@
       "méthodes de moindres carrés, méthodes à vecteurs supports",
       "sélection de variables et méthodes d'approximation parcimonieuses'",
       "techniques d'apprentissage non-supervisé'",
-      "apprentissage en ligne"
+      "apprentissage en ligne",
+      "mini-projets en Matlab"
     ],
     "semestre": "Printemps"
   },
@@ -8231,7 +8231,6 @@
     "THEvolume": "100",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "    .estimation non bayésienne : méthode de moments, méthode du maximum de vraisemblance, comparaison des estimateurs",
     "objectif": [
       "L'objectif est de présenter des outils probabilistes et statistiques permettant l'analyse des systèmes depuis la phase de modélisation jusqu'à la prise de décision ",
       "savoir modéliser par processus stochastiques, et utiliser des outils probabilistes de calcul et de prévision",
@@ -8245,7 +8244,8 @@
       ".modèles à temps continu",
       "notions de base de la théorie de décision",
       "    .Lemme de Neyman-Pearson. Test Bayésien, test le plus puissant, test minimax",
-      "    .rapport de vraisemblance monotone. Notions de base de la théorie d'estimation'"
+      "    .rapport de vraisemblance monotone. Notions de base de la théorie d'estimation'",
+      "    .estimation non bayésienne : méthode de moments, méthode du maximum de vraisemblance, comparaison des estimateurs"
     ],
     "semestre": "Automne"
   },
@@ -8287,8 +8287,6 @@
     "commentaires": "bases de calcul vectoriel nécessaires, sortie pédagogique au Palais de la Découverte|Maîtrise du francçais : * niveau B2",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "identifier, connaître et exploiter les phénomènes (interférences, diffraction...)",
-    "programme9": "établir des liens entre les expressions mathématiques, les propriétés physiques, les phénomènes observables",
     "objectif": [
       "En ingénierie, les champs et les ondes interviennent dans la caractérisation des matériaux, les télécommunications, la mécanique, la métrologie, l'électromagnétisme... Ils permettent de décrire et comprendre des phénomènes à toutes échelles'"
     ],
@@ -8299,7 +8297,9 @@
       "manipuler et exploiter leurs principales propriétés (propagation",
       "dispersion",
       "propagation dans un guide",
-      " ondes stationnaires...)"
+      " ondes stationnaires...)",
+      "identifier, connaître et exploiter les phénomènes (interférences, diffraction...)",
+      "établir des liens entre les expressions mathématiques, les propriétés physiques, les phénomènes observables"
     ],
     "semestre": "Automne"
   },
@@ -8315,7 +8315,6 @@
     "commentaires": "notions de dérivées partielles, travail mécanqiue, relation travail-puissance et|modèles des gaz à maîtriser|Maîtrise du français : **  niveau C1",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "étudier des cycles de moteurs et générateurs et calculer leur efficacité",
     "objectif": [
       "En ingénierie, les propriétés thermodynamiques concernent les matériaux, les dispositifs et machines produisant ou exploitant de l'énergie comme les systèmes de transport', de transformation, de chauffage, de refroidissement."
     ],
@@ -8326,7 +8325,8 @@
       "identifier les différentes formes d'échange de chaleur et appliquer les lois élémentaires et équations associées (conduction'",
       "convection",
       " rayonnement)",
-      "comprendre la notion d'entropie et le fonctionnement des machines thermodynamiques'"
+      "comprendre la notion d'entropie et le fonctionnement des machines thermodynamiques'",
+      "étudier des cycles de moteurs et générateurs et calculer leur efficacité"
     ],
     "semestre": "Printemps"
   },
@@ -8369,9 +8369,6 @@
     "THEvolume": "50",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "dans des situations particulières",
-    "programme9": "représenter des champs et phénomènes électromagnétiques mathématiquement dans de telles situations",
-    "programme10": "prédire les résultats dans d'autres situations similaires",
     "objectif": [
       "introduire l'électromagnétisme par des exemples pris dans la vie de tous les jours. Susciter la curiosité de",
       "l'étudiants autour des phénomènes observés",
@@ -8385,13 +8382,16 @@
       " de l'électrostatique et de la magnétostatique'",
       "notion de champs, de charge",
       "notion de circuits électrocinétiques",
-      "décrire avec des mots et mathématiquement les façons dont les concepts électromagnétiques peuvent intervenir"
+      "décrire avec des mots et mathématiquement les façons dont les concepts électromagnétiques peuvent intervenir",
+      "dans des situations particulières",
+      "représenter des champs et phénomènes électromagnétiques mathématiquement dans de telles situations",
+      "prédire les résultats dans d'autres situations similaires"
     ],
     "semestre": "Automne / Printemps"
   },
   {
     "code": "PH15",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Essor des technologies et crise de l'idée de progrès",
     "diplome": "UV ing. ou UV CS pour mast.",
     "Cvolume": "30",
@@ -8400,7 +8400,6 @@
     "commentaires": "Maîtrise français niveau C2 ***|Picto pédagogie par projet",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "avoir une réflexivité et une certaine hauteur de vue par rapport à sa future pratique professionnelle",
     "objectif": [
       "La réflexion sur le développement technique et technologique nous amène à reconsidérer l'idée moderne de Progrès. Dans la mesure où il peut constituer une menace pour l'environnement et les êtres humains'",
       "il nous interroge sur ses limites éthiques",
@@ -8411,12 +8410,13 @@
       "construire, structurer et articuler une réflexion personnelle argumentée et rigoureuse",
       "prendre, affirmer et défendre une position avec confiance face à des protagonistes dans l'opposition'",
       "penser et problématiser les enjeux contemporains liés à l'essor des technologies'",
-      "intégrer une réflexion sur le sens et les valeurs dans son activité professionnelle"
+      "intégrer une réflexion sur le sens et les valeurs dans son activité professionnelle",
+      "avoir une réflexivité et une certaine hauteur de vue par rapport à sa future pratique professionnelle"
     ]
   },
   {
     "code": "PH20",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Introduction à la philosophie des sciences",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -8425,9 +8425,6 @@
     "commentaires": "Maîtrise français niveau C2 ***",
     "credits": "4",
     "langues": "FRA",
-    "programme9": "engager une réflexion personnelle et rationnelle en mettant à profit son esprit critique, et en évitant tout dogmatisme",
-    "programme10": "problématiser une notion ou une question",
-    "programme11": "intégrer et articuler sa culture scientifique à sa réflexion personnelle",
     "objectif": [
       "La philosophie des sciences interroge l'origine et le statut des connaissances scientifiques'",
       "leur spécificité",
@@ -8439,12 +8436,15 @@
     ],
     "programme": [
       "la mesure",
-      " etc."
+      " etc.",
+      "engager une réflexion personnelle et rationnelle en mettant à profit son esprit critique, et en évitant tout dogmatisme",
+      "problématiser une notion ou une question",
+      "intégrer et articuler sa culture scientifique à sa réflexion personnelle"
     ]
   },
   {
     "code": "PH21",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Sociétés en débats : penser les enjeux du monde contemporain",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -8453,7 +8453,6 @@
     "commentaires": "Pas de dissertation écrite|Maîtrise français niveau C2 ***|Picto pédagogie par projet",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "intégrer et articuler sa culture scientifique à sa réflexion personnelle",
     "objectif": [
       "Les évolutions du monde actuel (biotechnologies, usages du numérique...)nous mettent en face de problématiques complexes et multidimensionnelles qui nous interrogent sur notre projet de civilisation :l'idée que nous nous faisons de la société',de ce qu'elle devrait être ou ne jamais devenir."
     ],
@@ -8464,7 +8463,8 @@
       " éventuellement en remettant en question ses préconceptions",
       "prendre position dans un débat, faire face aux contradictions et aux différents points de vue",
       "argumenter et défendre sa position avec confiance, rigueur et conviction",
-      "poser un problème complexe, flou, avec incertitudes et enjeux éthiques, en le situant dans un contexte multidimensionnel"
+      "poser un problème complexe, flou, avec incertitudes et enjeux éthiques, en le situant dans un contexte multidimensionnel",
+      "intégrer et articuler sa culture scientifique à sa réflexion personnelle"
     ],
     "semestre": "Printemps"
   },
@@ -8492,7 +8492,7 @@
   },
   {
     "code": "PO03",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Introduction à la vie politique",
     "diplome": "UV ing. ou UV CS pour mast.",
     "Cvolume": "30",
@@ -8562,7 +8562,6 @@
     "commentaires": "Drapeau français anglais",
     "credits": "6",
     "langues": "ANG, FRA",
-    "programme8": "relation Ethernet IP",
     "objectif": [
       "acquérir les notions essentielles pour appréhender tout le domaine des réseaux"
     ],
@@ -8573,7 +8572,8 @@
       "réseaux haut débit : fast ethernet, high speed token ring, LANE...",
       "PAN (Personal Area Networks),WLAN, bluetooth...",
       "interconnexion de réseaux",
-      "protocole IP, adressage global"
+      "protocole IP, adressage global",
+      "relation Ethernet IP"
     ],
     "semestre": "Automne"
   },
@@ -8615,7 +8615,6 @@
     "commentaires": "Maîtrise du français niveau C2***|Intervenants extérieurs supérieur à 15%*|Drapeau français anglais",
     "credits": "6",
     "langues": "ANG, FRA",
-    "programme8": " web ",
     "objectif": [
       "Les réseaux de l'internet utilisent de multiples technologies de transfert ainsi que de contrôle. Il est important de connaître les techniques fondamentales des réseaux étendus pour ensuite savoir les intégrer."
     ],
@@ -8626,7 +8625,8 @@
       "comprendre les enjeux de la gestion des ressources pour la qualité de service",
       "connaître le système de nommage de l'internet'",
       " le système de résolution d'adresse DNS'",
-      "et les principaux services : messagerie"
+      "et les principaux services : messagerie",
+      " web "
     ]
   },
   {
@@ -8765,8 +8765,6 @@
     "commentaires": "ouverte à l'alternance'",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "comprendre l'architecture Radius pour le contrôle d'acès au réseau'",
-    "programme9": "comprendre et mettre en oeuvre une architecture de certification pour sécuriser des communications web",
     "objectif": [
       "Plusieurs moyens d'agir doivent être combinés pour assurer la sécurité des communications et des infrastructures informatiques : au niveau des applications elles-mêmes'",
       " au niveau du système d'exploitation des ordinateurs'",
@@ -8777,7 +8775,9 @@
       " pré-requise à la sécurité ",
       "comprendre et mettre en oeuvre les outils d'administration et de protection de l'infrastructure réseau elle-même'",
       "comprendre et mettre en oeuvre une stratégie de filtrage des communications",
-      "mettre en oeuvre un firewall pour le filtrage et l'interconnexion IPSec "
+      "mettre en oeuvre un firewall pour le filtrage et l'interconnexion IPSec ",
+      "comprendre l'architecture Radius pour le contrôle d'acès au réseau'",
+      "comprendre et mettre en oeuvre une architecture de certification pour sécuriser des communications web"
     ]
   },
   {
@@ -8886,10 +8886,6 @@
     "commentaires": "Maîtrise français niveau B2 *|Intervenants extérieurs > à 15% *",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "employer les méthodes statistiques fréquentistes lorsqu'un grand nombre de données est disponible ",
-    "programme9": "prendre en compte les données censurées, les erreurs de mesures et les différents types d'incertitude'",
-    "programme10": "employer l'approche bayésienne pour modéliser les événements où peu de données de retour d'expérience est disponible'",
-    "programme11": "appliquer les outils probabilistes pour l'optimisation de la maintenance par la fiabilité (OMF)",
     "objectif": [
       "Apprendre les méthodes de mise en place et d'exploitation du retour d'expérience pour les analyses de sûreté de fonctionnement de systèmes'"
     ],
@@ -8900,7 +8896,11 @@
       "(ACP",
       "AF",
       "Tests",
-      "...)"
+      "...)",
+      "employer les méthodes statistiques fréquentistes lorsqu'un grand nombre de données est disponible ",
+      "prendre en compte les données censurées, les erreurs de mesures et les différents types d'incertitude'",
+      "employer l'approche bayésienne pour modéliser les événements où peu de données de retour d'expérience est disponible'",
+      "appliquer les outils probabilistes pour l'optimisation de la maintenance par la fiabilité (OMF)"
     ],
     "semestre": "Automne"
   },
@@ -8915,10 +8915,6 @@
     "THEvolume": "60",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "MCMC",
-    "programme9": "EM",
-    "programme10": "HMM",
-    "programme11": " ...) ",
     "objectif": [
       "Dans le cadre de l'industrie 4.0'",
       " l'ingénierie de systèmes sûrs nécessite le traitement et l'exploitation en temps réel des données de surveillance pour pouvoir détecter des défauts et anticiper les défaillances. L'analyse des données de surveillance permet de construire des indicateurs de santé et de prédire la durée de vie résiduelle. La surveillance et le pronostic sont fondamentaux pour une aide à la décision permettant de satisfaire les exigences de maintien en condition opérationnelle de systèmes complexes."
@@ -8929,7 +8925,11 @@
       "construire des indicateurs en s'appuyant sur les méthodes d'analyse de données'",
       "modéliser les indicateurs de santé avec prise en compte de covariables et de censures (séries temporelles, processus stochastique, régression,...)",
       "caractériser la durée de vie résiduelle",
-      "évaluer l'indicateur de pronostic (FP'"
+      "évaluer l'indicateur de pronostic (FP'",
+      "MCMC",
+      "EM",
+      "HMM",
+      " ...) "
     ],
     "semestre": "Printemps"
   },
@@ -8945,10 +8945,6 @@
     "commentaires": "Intervenants extérieurs supérieur à 15% *",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "regrouper des actions de maintenance",
-    "programme9": "prendre des décisions en ligne (planification d'inspection'",
-    "programme10": "reconfiguration",
-    "programme11": "remplacement",
     "objectif": [
       "La planification de maintenance constitue un élément fondamental dans la gestion de systèmes industriels complexes intelligents. En partant des approches classiques de maintenance préventive cette UE présente les défis méthodologiques à relever pour mettre en oeuvre une stratégie de maintenance prévisionnelle (Maintenance 4.0) qui tend de plus en plus à exploiter en temps réel l'ensemble des données disponibles. Différentes politiques de maintenance sont évoquées ainsi les méthodes d'analyse et d'évaluation permettant d'assurer les contraintes de sûreté de fonctionnement requises tout en optimisant les performances économiques.",
       "analyser des données de maintenance",
@@ -8961,7 +8957,11 @@
       "élaborer des politiques de maintenance classiques (age-based, time-based) et politiques intelligentes (CBM, predictive)",
       "identifier les enjeux de la fonction maintenance pour l'entreprise.",
       "choisir et mettre en place des critères d'évaluation'",
-      "optimiser les politiques de maintenance"
+      "optimiser les politiques de maintenance",
+      "regrouper des actions de maintenance",
+      "prendre des décisions en ligne (planification d'inspection'",
+      "reconfiguration",
+      "remplacement"
     ],
     "semestre": "Printemps"
   },
@@ -9029,7 +9029,6 @@
     "commentaires": "TC1 24 étudiants maximum |prérequis MATH01|Niveau français : *** niveau C2",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "poser un problème et proposer des pistes de résolution",
     "objectif": [
       "utiliser une démarche scientifique pour résoudre des problèmes;élaborer, exploiter un modèle;discuter les",
       "résultats numériques;se familiariser au débat contradictoire;compléter ses connaissances et savoirfaire,",
@@ -9042,13 +9041,14 @@
       " paramètres endogènes et exogènes ",
       "résoudre numériquement un problème : utilisation d'outils numériques tels octave et maxima",
       "discuter l'influence des différents paramètres et la pertinence des solutions, étudier la sensibilité",
-      "présenter une résolution et en débattre avec les autres étudiants, arbitrer"
+      "présenter une résolution et en débattre avec les autres étudiants, arbitrer",
+      "poser un problème et proposer des pistes de résolution"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "SC00",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Approches de la communication",
     "diplome": "UV ing. ou UV mast.",
     "mineur": "COESO",
@@ -9072,7 +9072,7 @@
   },
   {
     "code": "SC01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Communication d'entreprise",
     "diplome": "UV ing.",
     "mineur": "COESO",
@@ -9093,7 +9093,7 @@
   },
   {
     "code": "SC02",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Communication et médias",
     "diplome": "UV ing.",
     "mineur": "COESO",
@@ -9120,7 +9120,7 @@
   },
   {
     "code": "SC04",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Communication, persuasion et influence sociale",
     "diplome": "UV ing.",
     "mineur": "COESO",
@@ -9131,10 +9131,6 @@
     "commentaires": "Mineur : COESO|Maîtrise français niveau C2 ***|",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "mettre en oeuvre une observation, une enquête ou une expérience pour approfondir une question de psychologie et de communication",
-    "programme9": "observer et comprendre le rôle de la communication non verbale",
-    "programme10": "analyser la dynamique des groupes",
-    "programme11": "savoir identifier les mécanismes de manipulation dans les situations de communication quotidiennes",
     "objectif": [
       "L'objectif de cet enseignement est de comprendre quelques mécanismes de la communication humaine avec l'aide des modèles et outils de la psychologie : l'influence dans les groupes'",
       "la persuasion",
@@ -9145,13 +9141,17 @@
     ],
     "programme": [
       "analyser des situations de communication quotidiennes (publicités, discussions dans les groupes, etc.) avec les modèles et outils proposés en psychologie",
-      "connaître les rouages de l'influence sociale et de la persuasion'"
+      "connaître les rouages de l'influence sociale et de la persuasion'",
+      "mettre en oeuvre une observation, une enquête ou une expérience pour approfondir une question de psychologie et de communication",
+      "observer et comprendre le rôle de la communication non verbale",
+      "analyser la dynamique des groupes",
+      "savoir identifier les mécanismes de manipulation dans les situations de communication quotidiennes"
     ],
     "semestre": "Automne"
   },
   {
     "code": "SC05",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Psychologie du travail et des organisations",
     "diplome": "UV ing.",
     "Cvolume": "23",
@@ -9160,9 +9160,6 @@
     "commentaires": "Maîtrise français niveau C2 ***|",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "appliquer les théories du leadership et de l'influence des groupes'",
-    "programme9": "comprendre les relations et la communication dans les équipes",
-    "programme10": "identifier les facteurs de la motivation, de l'implication au travail', du stress",
     "objectif": [
       "La compréhension des processus psychologiques en jeu dans les situations de travail permet d'analyser ",
       "l'efficacité des équipes'",
@@ -9174,13 +9171,16 @@
     "programme": [
       "maîtriser les concepts de base en psychologie",
       "analyser des situations de travail avec les modèles et outils de la psychologie",
-      "comprendre l'impact de la personnalité sur le travail et les relations au travail'"
+      "comprendre l'impact de la personnalité sur le travail et les relations au travail'",
+      "appliquer les théories du leadership et de l'influence des groupes'",
+      "comprendre les relations et la communication dans les équipes",
+      "identifier les facteurs de la motivation, de l'implication au travail', du stress"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "SC06",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Usage des technologies de la communication et innovation",
     "diplome": "UV ing.",
     "mineur": "COESO",
@@ -9190,9 +9190,6 @@
     "commentaires": "Mineur : COESO|Maîtrise français niveau C1 **|",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "être capable de catégoriser des styles d'usage dans un panel de technologies de la communication'",
-    "programme9": "savoir articuler la logique sociale des usages et la logique technique dans le domaine de l'innovation'",
-    "programme10": "savoir mener et analyser un entretien semi-directif, instrument d'investigation privilégié par la sociologie'",
     "objectif": [
       "L'UV se propose d'étudier l'usage des moyens de communication contemporains (messageries'",
       "sites de mise en relation",
@@ -9203,7 +9200,10 @@
     ],
     "programme": [
       "savoir reconnaître des mécanismes et des régularités dans l'usage des technologies de la communication'",
-      " au-delà de leur diversité et leur renouvellement"
+      " au-delà de leur diversité et leur renouvellement",
+      "être capable de catégoriser des styles d'usage dans un panel de technologies de la communication'",
+      "savoir articuler la logique sociale des usages et la logique technique dans le domaine de l'innovation'",
+      "savoir mener et analyser un entretien semi-directif, instrument d'investigation privilégié par la sociologie'"
     ]
   },
   {
@@ -9251,7 +9251,7 @@
   },
   {
     "code": "SE01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Histoire des idées économiques",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -9273,7 +9273,7 @@
   },
   {
     "code": "SE02",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Economie générale pour l'ingénieur",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -9304,9 +9304,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75%***|Le stage se déroule pendant les intersemestres",
     "credits": "4",
     "langues": "FRA",
-    "programme8": " etc. ",
-    "programme9": "comprendre et utiliser le vocabulaire et les expressions stéréotypées permettant de donner des informations sur soi et de répondre à des besoins courants",
-    "programme10": "comprendre des informations ou des instructions courtes lorsque celles-ci sont formulées lentement par un interlocuteur compréhensif",
     "objectif": [
       "Dès le moment de leur arrivée en France, ce cours donne aux étudiants n'ayant jamais étudié le français les premiers moyens d'expression qui leur permettront de gérer les interactions simples et concrètes de leur vie quotidienne. Une priorité est donnée à la pratique de l'oral."
     ],
@@ -9317,7 +9314,10 @@
       "se présenter",
       "répondre à des questions simples et en poser",
       " demander à quelqu'un de ses nouvelles'",
-      "fixer un rendez-vous"
+      "fixer un rendez-vous",
+      " etc. ",
+      "comprendre et utiliser le vocabulaire et les expressions stéréotypées permettant de donner des informations sur soi et de répondre à des besoins courants",
+      "comprendre des informations ou des instructions courtes lorsque celles-ci sont formulées lentement par un interlocuteur compréhensif"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -9354,8 +9354,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75%***|Le stage se déroule pendant les intersemestres",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "réussir à décrire comment faire quelque chose et à donner des instructions détaillées",
-    "programme9": "acquérir la confiance nécessaire aux prises de parole en cours",
     "objectif": [
       "Premier module d'une formation préparant au niveau B1'",
       " ce stage permettra aux étudiants ayant  déjà consacré 200 heures à l'apprentissage du français de mobiliser leurs connaissances dans les différents  contextes de la  communication orale."
@@ -9366,7 +9364,9 @@
       "exprimer des positions personnelles dans des discussions menées en groupe",
       " par exemple dans le cadre des projets réalisés en équipe",
       "réussir à obtenir de l'information sur un sujet abstrait ou technique'",
-      " pouvoir expliquer pourquoi quelque chose pose problème"
+      " pouvoir expliquer pourquoi quelque chose pose problème",
+      "réussir à décrire comment faire quelque chose et à donner des instructions détaillées",
+      "acquérir la confiance nécessaire aux prises de parole en cours"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -9380,10 +9380,6 @@
     "commentaires": "Intervenants extérieurs supérieur ou égal à 75%***|Le stage se déroule pendant les intersemestres",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "développer avec aisance une explication logiquement construite dans une gamme étendue de sujets d'ordre général ou professionnel'",
-    "programme9": "pouvoir extraire le contenu informatif d'une longue intervention orale (cours'",
-    "programme10": "conférence",
-    "programme11": "document radiophonique",
     "objectif": [
       "Après environ 400 heures d'étude de la langue française'",
       "ce stage invitera les étudiants  à mobiliser leurs apprentissages dans des contextes de communication authentiques: enquêtes",
@@ -9394,7 +9390,11 @@
     ],
     "programme": [
       "Maîtriser, à l'oral', les compétences d'expression et de compréhension répertoriées par le CECRL pour le niveau B2', par exemple:",
-      "pouvoir participer à un débat avec fluidité, conduire efficacement une argumentation autour de sujets abstraits (problèmes de société, choix éthiques, conclusions scientifiques, etc.)"
+      "pouvoir participer à un débat avec fluidité, conduire efficacement une argumentation autour de sujets abstraits (problèmes de société, choix éthiques, conclusions scientifiques, etc.)",
+      "développer avec aisance une explication logiquement construite dans une gamme étendue de sujets d'ordre général ou professionnel'",
+      "pouvoir extraire le contenu informatif d'une longue intervention orale (cours'",
+      "conférence",
+      "document radiophonique"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -9410,7 +9410,6 @@
     "commentaires": "Maîtrise français niveau B2*|Intervenants extérieurs supérieur ou égal à 40%**",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "acquérir les «nouveaux risques du 21eme siècle» du référentiel Défense et sécurité",
     "objectif": [
       "Evolution des menaces et conflits liés à la globalisation et la mondialisation. Violences-terrorisme, résolution des crises sociales, IE et cybercriminalité. Mutations et nouveaux défis, pour le citoyen, l'État et l'opinion publique."
     ],
@@ -9421,7 +9420,8 @@
       "fixer des stratégies globales sur les défis répertoriés",
       "connaître les institutions européennes et les différentes structures politiques",
       "avoir une vision globale et transversale sur les nouvelles menaces contemporaines",
-      "initiation à la géopolitique des conflits"
+      "initiation à la géopolitique des conflits",
+      "acquérir les «nouveaux risques du 21eme siècle» du référentiel Défense et sécurité"
     ],
     "semestre": "Automne"
   },
@@ -9487,10 +9487,6 @@
     "commentaires": "Maîtrise français niveau B2*|Intervenants extérieurs supérieur ou égal à 40%**",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "prévoir et mettre en place une cellule de communication de crise",
-    "programme9": "planifier les risques et gérer la crise",
-    "programme10": "prévenir les risques et aborder les plans de secours",
-    "programme11": "coproduire et manager les acteurs de la gestion de crise",
     "objectif": [
       "La politique de sécurité en matière de crises risques majeurs. L'apport de la défense'",
       "la technologie",
@@ -9501,7 +9497,11 @@
     "programme": [
       "intégrer la politique de sécurité et de défense nationale face aux risques majeurs, industriels et technologique",
       "analyser la gestion des bassins sensibles",
-      "économie de la sécurité : enjeux et mutations"
+      "économie de la sécurité : enjeux et mutations",
+      "prévoir et mettre en place une cellule de communication de crise",
+      "planifier les risques et gérer la crise",
+      "prévenir les risques et aborder les plans de secours",
+      "coproduire et manager les acteurs de la gestion de crise"
     ],
     "semestre": "Automne"
   },
@@ -9566,10 +9566,6 @@
     "commentaires": "Maîtrise français niveau B2*|Intervenants extérieurs supérieur ou égal à 40%**",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "élaboration",
-    "programme9": "le retour d'expérience et la situation de crise à dynamique rapide'",
-    "programme10": " de courte et",
-    "programme11": "longue durée",
     "objectif": [
       "caractériser et répondre aux grandes phases d'une crise'",
       " de la planification à l'impact'"
@@ -9580,12 +9576,16 @@
       " le",
       "basculement de la normalité à la crise",
       "les impacts de la crise, la gestion et la planification",
-      "le développement des structures internationales et gestion coordonnée et"
+      "le développement des structures internationales et gestion coordonnée et",
+      "élaboration",
+      "le retour d'expérience et la situation de crise à dynamique rapide'",
+      " de courte et",
+      "longue durée"
     ]
   },
   {
     "code": "SH01",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Bases et modèles de sociologie pour l'ingénieur",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -9595,8 +9595,6 @@
     "commentaires": "Maîtrise du français : **  niveau C1",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "savoir réaliser un diagnostic structurel d'une organisation",
-    "programme9": "savoir conduire et analyser un entretien semi-directif",
     "objectif": [
       "L'UV est d'abord une initiation à la sociologie. Elle se penche ensuite sur les organisations'",
       "en les examinant sous différents angles (pouvoir",
@@ -9607,7 +9605,9 @@
       "savoir mobiliser des catégories d'analyse de la sociologie pour mieux comprendre des faits contemporains'",
       "savoir se situer dans un environnement professionnel, en revoyant et consolidant l'expérience du stage ST05'",
       "savoir utiliser des outils d'analyse sociologique pour décrire et comprendre des situations professionnelles'",
-      "maîtriser les rouages de la motivation, du stress, de la dynamique de groupe et de la prise de décision en organisation"
+      "maîtriser les rouages de la motivation, du stress, de la dynamique de groupe et de la prise de décision en organisation",
+      "savoir réaliser un diagnostic structurel d'une organisation",
+      "savoir conduire et analyser un entretien semi-directif"
     ],
     "semestre": "Printemps"
   },
@@ -9780,7 +9780,7 @@
   },
   {
     "code": "SO02",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Risques sociaux, géopolitique des conflits et initiation aux nouveaux risques",
     "diplome": "UV ing. ou UV CS pour mast.",
     "Cvolume": "30",
@@ -9789,10 +9789,6 @@
     "PRJvolume": "10",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "analyser des événements collectifs, la prise de décision et l'évolution du leadership'",
-    "programme9": "analyser la géopolitique des conflits et les forces de l'ordre'",
-    "programme10": "analyser l'évolution de sa place dans la société'",
-    "programme11": " l'entreprise'",
     "objectif": [
       "Le référentiel défense et sécurité «Nouveaux risques du 21eme siècle» nous incite à considérer l'évolution des menaces et des conflits liés à la globalisation et à la mondialisation : violences liées au terrorisme'",
       "résolution des crises sociales",
@@ -9803,13 +9799,17 @@
     "programme": [
       "appréhender l'évolution des nouvelles menaces et risques sociétaux (violences'",
       "criminalité organisée",
-      " terrorisme et malveillance sur la société)"
+      " terrorisme et malveillance sur la société)",
+      "analyser des événements collectifs, la prise de décision et l'évolution du leadership'",
+      "analyser la géopolitique des conflits et les forces de l'ordre'",
+      "analyser l'évolution de sa place dans la société'",
+      " l'entreprise'"
     ],
     "semestre": "Automne / Printemps"
   },
   {
     "code": "SO03",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Introduction à l'intelligence économique et à la géostratégie des acteurs",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -9820,7 +9820,6 @@
     "commentaires": "Maîtrise français niveau C2 ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "être capable d'intégrer la géostratégie des acteurs'",
     "objectif": [
       "Le référentiel défense et sécurité nous incite à aborder l'intelligence économique et la protection de l'information pour les acteurs économiques'",
       " sociaux et institutionnels. Il s'agit de comprendre et d'appréhender les différents facteurs de la géostratégie de l'intelligence économique'",
@@ -9831,13 +9830,14 @@
       "maîtriser le paysage des acteurs de l'intelligence économique et disposer de références pour comprendre la mondialisation et la transformation des procédés ",
       "présenter les principales vulnérabilités à des acteurs pour renforcer l'action des entreprises'",
       "connaître le dispositif national, la cartographie et l'organisation des réseaux de soutien aux entreprises'",
-      "protéger l'information stratégique pour tout acteur économique et institutionnel'"
+      "protéger l'information stratégique pour tout acteur économique et institutionnel'",
+      "être capable d'intégrer la géostratégie des acteurs'"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "SO04",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Sécurité, Etat et responsabilité",
     "diplome": "UV ing. ou UV TM pour mast.",
     "Cvolume": "30",
@@ -9846,8 +9846,6 @@
     "commentaires": "Maîtrise français niveau C2 ***",
     "credits": "4",
     "langues": "FRA",
-    "programme8": "aider à la prise de décision et appliquer les politiques de prévention situationnelle",
-    "programme9": "prendre des responsabilités et avoir du leadership",
     "objectif": [
       "Initiation à une politique de prévention situationnelle : présentation des institutions de l'Etat'",
       "des responsabilités",
@@ -9860,13 +9858,15 @@
       "être en responsabilité dans les matières protégées : santé publique, protection des personnes",
       "connaître la responsabilité en matière de police et d'ordre public : nécessités'",
       " restrictions et limites",
-      "analyser et appréhender les phénomènes juridiques susceptibles d'engager une action devant le juge administratif'"
+      "analyser et appréhender les phénomènes juridiques susceptibles d'engager une action devant le juge administratif'",
+      "aider à la prise de décision et appliquer les politiques de prévention situationnelle",
+      "prendre des responsabilités et avoir du leadership"
     ],
     "semestre": "Printemps"
   },
   {
     "code": "SO05",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Analyde de l'erreur humaine dans les accidents indust",
     "diplome": "UV ing.",
     "Cvolume": "26",
@@ -9891,7 +9891,7 @@
   },
   {
     "code": "SO09",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Innovations techniques, innovations sociétales",
     "diplome": "UV ing.",
     "Cvolume": "30",
@@ -9981,7 +9981,7 @@
   },
   {
     "code": "SP11",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "La performance sportive",
     "diplome": "UV ing.",
     "Cvolume": "20",
@@ -10026,7 +10026,7 @@
   },
   {
     "code": "SS00",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "City planning an modelling",
     "diplome": "UV ing.",
     "credits": "2",
@@ -10037,7 +10037,7 @@
   },
   {
     "code": "SS06",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Introduction to China",
     "diplome": "UV ing.",
     "credits": "2",
@@ -10048,7 +10048,7 @@
   },
   {
     "code": "SS07",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Environnement and sustainable develop. in China",
     "diplome": "UV ing.",
     "credits": "2",
@@ -10079,7 +10079,6 @@
     "THEvolume": "60",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "éléments de cinétique",
     "objectif": [
       "avoir une connaissance générale de al structure de la matière",
       "acquérir les bases générales de la transformation chimique"
@@ -10091,13 +10090,14 @@
       "isotopes et radioactivité",
       "la réaction chimique (grandeurs, équilibre, avancement)",
       "réactions d'oxydoréduction'",
-      "réaction acido-basique"
+      "réaction acido-basique",
+      "éléments de cinétique"
     ],
     "semestre": "Automne / Printemps"
   },
   {
     "code": "STS01S",
-    "categorie": "HT",
+    "categorie": "CT",
     "titre": "Science, technology and society",
     "diplome": "UV ing.",
     "credits": "6",
@@ -10133,7 +10133,6 @@
     "commentaires": "Maîtrise français niveau B2 *",
     "credits": "30",
     "langues": "FRA",
-    "programme8": "acquises aussi bien par écrit qu'à l'oral'",
     "objectif": [
       "Le «stage ST09» a pour objectifs de développer la connaissance du milieu de l'entreprise'",
       ",d'appliquer et valoriser les connaissances et savoir-faire acquis à l'UTT'",
@@ -10147,7 +10146,8 @@
       "de la valeur ajoutée à l'organisme d'accueil'",
       "être capable de réaliser, de manière autonome et avec le niveau de responsabilité requis,",
       "des activités relevant de son champ de compétences",
-      "être capable de valoriser les activités réalisées, les résultats obtenus et les nouvelles compétences"
+      "être capable de valoriser les activités réalisées, les résultats obtenus et les nouvelles compétences",
+      "acquises aussi bien par écrit qu'à l'oral'"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -10160,7 +10160,6 @@
     "commentaires": "Maîtrise français niveau B2 *",
     "credits": "30",
     "langues": "FRA",
-    "programme8": "acquises aussi bien par écrit qu'à l'oral'",
     "objectif": [
       "Le « projet de fi n d'études » vise à la réalisation d'un travail d'ingénieur en conformité avec'",
       "le projet professionnel de l'étudiant. Ce travail doit être en cohérence avec le diplôme'",
@@ -10174,7 +10173,8 @@
       "de la valeur ajoutée à l'organisme d'accueil'",
       "être capable de réaliser, de manière autonome et avec le niveau de responsabilité requis,",
       "des activités relevant de son champ de compétences",
-      "être capable de valoriser les activités réalisées, les résultats obtenus et les nouvelles compétences"
+      "être capable de valoriser les activités réalisées, les résultats obtenus et les nouvelles compétences",
+      "acquises aussi bien par écrit qu'à l'oral'"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -10623,7 +10623,6 @@
     "TDvolume": "58",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "valoriser des résultats scientifiques à l'écrit et à l'oral'",
     "objectif": [
       "L'accompagnement méthodologique à la démarche scientifique est offert aux stagiaires à l'alternance de la mention Risques et Environnement'",
       " en complément du projet de fin d'étude'"
@@ -10634,7 +10633,8 @@
       "positionner sa mission professionnelle par rapport à cet état de l'art'",
       " formuler une problématique et des questions de recherche",
       "poser un diagnostic sur une problématique",
-      "élaborer un plan d'intervention ou une analyse critique intégrant la multidisciplinarité'"
+      "élaborer un plan d'intervention ou une analyse critique intégrant la multidisciplinarité'",
+      "valoriser des résultats scientifiques à l'écrit et à l'oral'"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -10808,8 +10808,6 @@
     "commentaires": "Maîtrise du français niveau B2*|",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "déterminer et organiser les paramètres pertinents pour construire un ou plusieurs modèles d'un système complexe'",
-    "programme9": "choisir le ou les modèles adaptés permettant de répondre à une problématique donnée pour un système complexe",
     "objectif": [
       "L'aide à la décision dans les systèmes complexes nécessite des démarches adaptées'",
       "non limitées aux approches cartésiennes classiques",
@@ -10820,7 +10818,9 @@
     ],
     "programme": [
       "comprendre les notions fondamentales permettant de construire des démarches globales pour analyser les systèmes complexes",
-      "mettre en oeuvre une démarche systémique par itérations successives, appliquée à un système complexe concret"
+      "mettre en oeuvre une démarche systémique par itérations successives, appliquée à un système complexe concret",
+      "déterminer et organiser les paramètres pertinents pour construire un ou plusieurs modèles d'un système complexe'",
+      "choisir le ou les modèles adaptés permettant de répondre à une problématique donnée pour un système complexe"
     ],
     "semestre": "Automne"
   },
@@ -10862,7 +10862,6 @@
     "antecedent": "SY06",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "indexation d'images'",
     "objectif": [
       "former les futurs ingénieurs aux outils théoriques et pratiques nécessaires au traitement et à l'analyse numérique du signal et des images'"
     ],
@@ -10873,7 +10872,8 @@
       "filtrage numérique",
       "introduction aux images numériques",
       "restauration d'images'",
-      "segmentation d'image'"
+      "segmentation d'image'",
+      "indexation d'images'"
     ],
     "semestre": "Printemps"
   },
@@ -11145,10 +11145,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "gestion des stocks",
-    "programme9": "approches Justes à Temps pour la gestion de Production",
-    "programme10": "modèles pour la planification de la production",
-    "programme11": "méthode d'ingénierie collaborative'",
     "objectif": [
       "introduction à la mise en place d'un système d'exploitation de la production'",
       "présenter les principaux enjeux, approches et instrumentations mobilisables dans le domaine de la GdP, d'une part', et de donner une formation de base à l'approche quantitative des problèmes de gestion de l'entreprise', d'autre part'",
@@ -11161,7 +11157,11 @@
       " ...)",
       "l'e-Manufacturing'",
       " des solutions flexibles et modulaires permettant d'intégrer étroitement les services de production aux systèmes administratifs'",
-      "gestion de production et ordonnancement"
+      "gestion de production et ordonnancement",
+      "gestion des stocks",
+      "approches Justes à Temps pour la gestion de Production",
+      "modèles pour la planification de la production",
+      "méthode d'ingénierie collaborative'"
     ],
     "semestre": "Printemps"
   },
@@ -11178,8 +11178,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "application client léger et mobile (Smartphone, tablette)",
-    "programme9": "communication inter automates homogènes et hétérogènes, étude et mise en oeuvre de clients/serveurs OPC",
     "objectif": [
       "l'usine connectée : avantages et inconvénients. Vers l'intelligence partagée des systèmes industriels ",
       "savoir communiquer pour mettre en oeuvre la chaîne d'information de l'industrie 4.0'",
@@ -11192,7 +11190,9 @@
       "industriels caractéristiques (FIP, MODBUS, MODBUS TCP, PROFIBUS DP et MPI, PROFINET, CAN, ASI, ...)",
       "étude et mise en oeuvre de coupleurs WEB dans les automatismes",
       "étude de l'accès aux automatismes et superviseurs via TCP IP'",
-      "accès de la supervision à des bases de données distantes (MySQL, SQL SERVER)"
+      "accès de la supervision à des bases de données distantes (MySQL, SQL SERVER)",
+      "application client léger et mobile (Smartphone, tablette)",
+      "communication inter automates homogènes et hétérogènes, étude et mise en oeuvre de clients/serveurs OPC"
     ],
     "semestre": "Automne"
   },
@@ -11293,10 +11293,6 @@
     "commentaires": "UE réalisée à Reims|Drapeau français anglais",
     "credits": "6",
     "langues": "ANG, FRA",
-    "programme8": "vérification et Validation de l'ingénierie'",
-    "programme9": "évaluation et optimisation des architectures",
-    "programme10": "ingénierie appliquée aux architectures et aux logiciels informatiques (génie informatique et génie logiciel), méthodes et pratiques de développement, approche qualité",
-    "programme11": "modélisation Machines à Etats (RdP, SADT)",
     "objectif": [
       "disposer d'une vue globale de l'Ingénierie des Systèmes'",
       "mettre en oeuvre les démarches conceptuelles de gestion de projet suivant le modèle du cycle en V",
@@ -11312,7 +11308,11 @@
       "modélisation, langages formels et application à UML, SysML",
       "expression des besoins - définition des exigences techniques",
       "conception d'architectures fonctionnelle et organique'",
-      "test unitaire et global"
+      "test unitaire et global",
+      "vérification et Validation de l'ingénierie'",
+      "évaluation et optimisation des architectures",
+      "ingénierie appliquée aux architectures et aux logiciels informatiques (génie informatique et génie logiciel), méthodes et pratiques de développement, approche qualité",
+      "modélisation Machines à Etats (RdP, SADT)"
     ],
     "semestre": "Printemps"
   },
@@ -11329,9 +11329,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "perturbation : bruit, canaux sélectifs en temps/en fréquence, théorème de Nyquist",
-    "programme9": "réception : synchronisation, égalisation, détection, accès multiples",
-    "programme10": "analyse de normes (RDS, DVB ou DRM)",
     "objectif": [
       "comprendre les concepts issus de la théorie de l'information et ses conséquences en compression'",
       " en communications et en cryptographie",
@@ -11345,7 +11342,10 @@
       "codage de canal : limites théoriques, capacité des canaux, codes linéaires",
       "cryptographie : limites théoriques, fonctions à sens unique, symétrie/asymétrie, mise en oeuvre par flots/par blocs",
       "systèmes de communications numériques : chaîne, mesure de performances",
-      "émission : mise en forme, constellation, modulations mon ou multi porteuses"
+      "émission : mise en forme, constellation, modulations mon ou multi porteuses",
+      "perturbation : bruit, canaux sélectifs en temps/en fréquence, théorème de Nyquist",
+      "réception : synchronisation, égalisation, détection, accès multiples",
+      "analyse de normes (RDS, DVB ou DRM)"
     ],
     "semestre": "Printemps"
   },
@@ -11362,10 +11362,6 @@
     "commentaires": "UE réalisée à Reims",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "classification, généralisation des approches optimales, clustering, RDN, SVM (Application à l'identification biométrique) ",
-    "programme9": "estimateurs, biais, efficacité, Borne de Cramer-Rao",
-    "programme10": "estimation ML, MAP (Application à la synchronisation de systèmes de communication)",
-    "programme11": "processus de Markov, graphes Bayésiens, processus de Poisson",
     "objectif": [
       "savoir extraire des grandeurs d'intérêt des signaux aléatoires'",
       "savoir modéliser un problème impliquant une prise de décision ou une estimation les basée sur l'observation d'échantillons aléatoires'",
@@ -11380,7 +11376,11 @@
       "MAP",
       "ML",
       "tests UPP",
-      " GLRT "
+      " GLRT ",
+      "classification, généralisation des approches optimales, clustering, RDN, SVM (Application à l'identification biométrique) ",
+      "estimateurs, biais, efficacité, Borne de Cramer-Rao",
+      "estimation ML, MAP (Application à la synchronisation de systèmes de communication)",
+      "processus de Markov, graphes Bayésiens, processus de Poisson"
     ],
     "semestre": "Printemps"
   },
@@ -11451,9 +11451,6 @@
     "commentaires": "Maîtrise du français : **  niveau C1|Picto pédagogie par projet",
     "credits": "6",
     "langues": "FRA",
-    "programme8": " barre en traction-compression",
-    "programme9": "modéliser la transmission de puissance",
-    "programme10": "effectuer une réalisation en CAO sous forme de mini projet",
     "objectif": [
       "Cette UV permet d'analyser'",
       " de choisir et de mettre en oeuvre les éléments techniques et fonctions  mécaniques de base nécessaires au concepteur mécanicien."
@@ -11464,7 +11461,10 @@
       "être capable d'appréhender les jeux fonctionnels'",
       " l'étanchéité'",
       "la lubrification",
-      "la statique du solide"
+      "la statique du solide",
+      " barre en traction-compression",
+      "modéliser la transmission de puissance",
+      "effectuer une réalisation en CAO sous forme de mini projet"
     ],
     "semestre": "Automne"
   },
@@ -11506,7 +11506,6 @@
     "antecedent": "TN01",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "structures et mécanismes",
     "objectif": [
       "acquérir les éléments de base de la transmission des efforts en mécanique"
     ],
@@ -11517,7 +11516,8 @@
       "équilibre des systèmes de solides",
       "centres de gravité, frottement",
       "caractéristiques des diverses liaisons",
-      "étude des systèmes triangulés, statique des fils"
+      "étude des systèmes triangulés, statique des fils",
+      "structures et mécanismes"
     ],
     "semestre": "Printemps"
   },
@@ -11556,7 +11556,6 @@
     "commentaires": "Maîtrise du français : *   niveau B2|Picto pédagogie par projet",
     "credits": "6",
     "langues": "FRA",
-    "programme8": " environnementale et technique) à travers un projet",
     "objectif": [
       "L'ingénieur est confronté régulièrement à l'utilisation des matériaux. Il est nécessaire de comprendre à différentes échelles'",
       " l'organisation de la matière'",
@@ -11567,7 +11566,8 @@
       "comprendre l'effet de la composition sur les propriétés'",
       "comprendre les propriétés principales des matériaux",
       "analyser les différents types de caractérisation mécanique et le comportement mécanique des matériaux",
-      "élaborer une méthodologie d'analyse (économique'"
+      "élaborer une méthodologie d'analyse (économique'",
+      " environnementale et technique) à travers un projet"
     ],
     "semestre": "Printemps"
   },
@@ -11606,7 +11606,6 @@
     "THEvolume": "20",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "évaluer l'ensemble des coûts pour la production de la solution'",
     "objectif": [
       "les étudiants devront être capables, à partir d'un cahier des charges fonctionnelles de concevoir et de spécifier complètement un système mécanique simple', compatible avec les coûts et moyens de production imposés, d'en planifier la production', l'usage ou le recyclage'"
     ],
@@ -11617,7 +11616,8 @@
       "proposer une ou des solutions techniques pour répondre au cahier des charges",
       "fournir les plans cotés, tolérancé des pièces constituant la solution",
       "proposer une solution de fabrication pour les pièces à fabriquer et une gamme de montage",
-      "fournir la liste des pièces ou composants à sous traiter ou à acheter"
+      "fournir la liste des pièces ou composants à sous traiter ou à acheter",
+      "évaluer l'ensemble des coûts pour la production de la solution'"
     ],
     "semestre": "Automne / Printemps"
   },
@@ -11631,7 +11631,6 @@
     "THEvolume": "68",
     "credits": "6",
     "langues": "ANG, FRA",
-    "programme8": "TN14 au printemps sera enseigné en anglais",
     "objectif": [
       "étudier les techniques de modélisation géométrique en Conception Assistée par Ordinateur",
       "s'initier aux logiciels de CAO industriels Creo et Catia V5 au travers de mini-projets'"
@@ -11642,7 +11641,8 @@
       "savoir mettre en oeuvre différents types de modélisation (surfaciques et volumiques)",
       "connaître différentes techniques mathématiques de modélisation surfaciques et volumiques",
       "connaître les méthodes de visualisation des modèles géométriques (projection, ombrage...)",
-      "être sensibilisé aux standards d'échanges de données et aux systèmes de gestion de données techniques'"
+      "être sensibilisé aux standards d'échanges de données et aux systèmes de gestion de données techniques'",
+      "TN14 au printemps sera enseigné en anglais"
     ]
   },
   {
@@ -11785,7 +11785,6 @@
     "THEvolume": "34",
     "credits": "6",
     "langues": "FRA",
-    "programme8": "fabrication Assistée par Ordinateur, procédés de fabrication additive",
     "objectif": [
       "maitriser l'industrialisation de ses conceptions en passant des modèles CAO aux pièces réelles'"
     ],
@@ -11796,7 +11795,8 @@
       "Identifier, connaitre et comparer les procédés de fabrication avancés :",
       "usinage Grande Vitesse",
       "découpe plasma, laser, jet d'eau', électroérosion à fil",
-      "moyens de métrologie avancés"
+      "moyens de métrologie avancés",
+      "fabrication Assistée par Ordinateur, procédés de fabrication additive"
     ],
     "semestre": "Printemps"
   },

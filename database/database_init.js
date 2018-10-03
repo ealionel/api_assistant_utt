@@ -4,8 +4,16 @@ const { sequelize, model } = require('./index.js');
 const jsonUE = require('./guideUE.json');
 
 async function initListUE() {
-  jsonUE.forEach(async (ue) => {
-    model.ListUE.create(ue)
+  jsonUE.forEach((ue) => {
+    // We are stringifying program and goals because we can't
+    // use JSON datatype in mariadb 10.1
+    const mutatedUE = {
+      ...ue,
+      programme: JSON.stringify(ue.programme),
+      objectif: JSON.stringify(ue.objectif),
+    };
+
+    model.ListUE.create(mutatedUE)
       .then(addedUE => console.log(`${addedUE.code} added.`))
       .catch(err => Promise.reject(err));
   });
