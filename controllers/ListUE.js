@@ -2,30 +2,60 @@ const express = require('express');
 const { model, sequelize } = require('../database');
 const router = express.Router();
 
-router.get('/get', (req, res) => {
-  model.ListUE.findAll({
-    attributes: [
-      'code',
-      'titre',
-      'categorie',
-      'diplome',
-      'Cvolume',
-      'TDvolume',
-      'TPvolume',
-      'THEvolume',
-      'commentaires',
-      'credits',
-      'langues',
-      'objectif',
-      'programme',
-      'semestre',
-    ],
+const middlewares = require('../middlewares/ListUE');
+
+const ueFieldList = [
+  'id',
+  'code',
+  'titre',
+  'categorie',
+  'diplome',
+  'Cvolume',
+  'TDvolume',
+  'TPvolume',
+  'THEvolume',
+  'commentaires',
+  'credits',
+  'langues',
+  'objectif',
+  'programme',
+  'semestre',
+];
+
+router.get('/:codeUE', (req, res, next) => {
+  model.ListUE.findOne({
+    attributes: ueFieldList,
     where: {
-      code: req.query.code,
+      code: req.params.codeUE,
     },
   }).then((result) => {
-    res.json(result);
+    console.log(result);
+    res.locals.queryResult = result;
+
+    next();
   });
-});
+}, middlewares.validateResult);
+
+router.get('/', (req, res, next) => {
+  const filter = {};
+
+  ueFieldList.forEach((field) => {
+    if (req.query[field]) {
+      filter[field] = req.query[field];
+    }
+  });
+
+  console.log(filter);
+
+  model.ListUE.findAll({
+    attributes: ueFieldList,
+    where: filter,
+  }).then((result) => {
+    res.locals.queryResultArray = result;
+
+    next();
+  });
+}, middlewares.validateResult);
+
 
 module.exports = router;

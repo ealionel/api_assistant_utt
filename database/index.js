@@ -23,7 +23,7 @@ const models = [
 module.exports.model = {};
 
 // This is to avoid having to declare every models everytime we want to
-// make an app interactinf with our MySQL database.
+// make an app interacting with our MySQL database.
 models.forEach((modelName) => {
   module.exports.model[modelName] = sequelize.import(`${__dirname}/models/${modelName}`);
 });
