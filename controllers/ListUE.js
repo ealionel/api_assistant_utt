@@ -45,8 +45,6 @@ router.get('/', (req, res, next) => {
     }
   });
 
-  console.log(filter);
-
   model.ListUE.findAll({
     attributes: ueFieldList,
     where: filter,
