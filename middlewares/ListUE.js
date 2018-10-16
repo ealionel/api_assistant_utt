@@ -1,10 +1,10 @@
 // Middleware file for ListUE controller
 
 module.exports.validateResult = function validateResult(req, res) {
-  if (res.locals.queryResult || res.locals.queryResultArray.length > 0) {
-    console.log('Fetched :');
-    console.log(JSON.stringify(res.locals.queryResult, null, 2));
+  if (res.locals.queryResult) {
     res.json(res.locals.queryResult);
+  } else if (res.locals.queryResultArray.length > 0) {
+    res.json(res.locals.queryResultArray);
   } else {
     res.status(404).send({ error: 'No results' });
   }
