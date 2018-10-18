@@ -2,8 +2,6 @@ const express = require('express');
 const { model, sequelize } = require('../database');
 const router = express.Router();
 
-const middlewares = require('../middlewares/ListUE');
-
 const ueFieldList = [
   'id',
   'code',
@@ -22,7 +20,7 @@ const ueFieldList = [
   'semestre',
 ];
 
-router.get('/:codeUE', (req, res, next) => {
+router.get('/:codeUE', (req, res) => {
   model.ListUE.findOne({
     attributes: ueFieldList,
     where: {
@@ -30,13 +28,15 @@ router.get('/:codeUE', (req, res, next) => {
     },
   }).then((result) => {
     console.log(result);
-    res.locals.queryResult = result;
-
-    next();
+    if (result) {
+      res.json(result);
+    } else {
+      res.status(404).send({ error: 'No results' });
+    }
   });
-}, middlewares.validateResult);
+});
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
   const filter = {};
 
   ueFieldList.forEach((field) => {
@@ -49,11 +49,13 @@ router.get('/', (req, res, next) => {
     attributes: ueFieldList,
     where: filter,
   }).then((result) => {
-    res.locals.queryResultArray = result;
-
-    next();
+    if (result.length > 0) {
+      res.json(result);
+    } else {
+      res.status(404).send({ error: 'No results' });
+    }
   });
-}, middlewares.validateResult);
+});
 
 
 module.exports = router;
