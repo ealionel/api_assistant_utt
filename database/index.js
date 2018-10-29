@@ -1,16 +1,19 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('assistant_utt', 'root', '', {
-  host: 'localhost',
-  dialect: 'mysql',
-  operatorsAliases: false,
-  // logging: false,
-  pool: {
-    max: 5,
-    min: 0,
-    acquire: 30000,
-    idle: 10000,
-  },
+const sequelize = new Sequelize(
+  process.env.MYSQL_DB_NAME,
+  process.env.MYSQL_USERNAME,
+  process.env.MYSQL_PASSWORD, {
+    host: process.env.MYSQL_HOST,
+    dialect: 'mysql',
+    operatorsAliases: false,
+    // logging: false,
+    pool: {
+      max: 5,
+      min: 0,
+      acquire: 30000,
+      idle: 10000,
+    },
 });
 
 // Declare the name of every models that are in path ./models
@@ -18,6 +21,7 @@ const sequelize = new Sequelize('assistant_utt', 'root', '', {
 const models = [
   'ListUE',
   'UsersFeedback',
+  'Users',
 ];
 
 module.exports.model = {};

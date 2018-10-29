@@ -1,5 +1,5 @@
-module.exports = (sequelize, DataTypes) => (
-  sequelize.define('ListUE', {
+module.exports = (sequelize, DataTypes) => {
+  const Model = sequelize.define('ListUE', {
     code: DataTypes.STRING,
     titre: DataTypes.STRING,
     objectif: {
@@ -27,5 +27,7 @@ module.exports = (sequelize, DataTypes) => (
     THEvolume: DataTypes.SMALLINT,
   }, {
     freezeTableName: true,
-  })
-);
+  });
+  
+  return Model;
+};

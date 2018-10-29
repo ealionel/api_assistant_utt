@@ -1,7 +1,12 @@
-// This file is an initialization file.
+////////////////////////////////
+//    INITIALIZATION FILE     //
+////////////////////////////////
+
+require('dotenv').config();
 
 const { sequelize, model } = require('./index.js');
 const jsonUE = require('./guideUE.json');
+
 
 async function initListUE() {
   jsonUE.forEach((ue) => {
@@ -33,11 +38,15 @@ async function init() {
     console.log(`Error syncing models : ${err}`);
   }
 
-  try {
-    await initListUE();
-  } catch (err) {
-    console.log(`Error initializing ListUE : ${err}`);
+  if (process.argv[2] === 'initUE') {
+    try {
+      await initListUE();
+    } catch (err) {
+      console.log(`Error initializing ListUE : ${err}`);
+    }
   }
 }
 
-init().then(process.exit(0));
+init().catch(err => {
+  throw new Error(err)
+});

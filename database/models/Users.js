@@ -1,13 +1,35 @@
 // WIll contain list of authenticated users and
 // their respective refresh token.
 
-module.exports = (sequelize, DataTypes) => (
-    sequelize.define('Users', {
-        name: DataTypes.STRING,
-        userFacebookId: DataTypes.STRING,
+module.exports = (sequelize, DataTypes) => {
+    const Model = sequelize.define('Users', {
+        username: DataTypes.STRING,
+        userId: DataTypes.STRING,
         refreshToken: DataTypes.STRING,
-        refreshTokenLastUpdate: DataTypes.STRING,
+        refreshTokenLastUpdate: DataTypes.DATE,
         accessToken: DataTypes.STRING,
-        lastRefresh: DataTypes.DATE,
-    })
-);
+        accessTokenlastUpdate: DataTypes.DATE,
+    });
+    
+    Model.addUser = async function ({ username, userId, refreshToken, accessToken }) {
+        try {
+            const newUser = await Model.create({
+                username,
+                userId,
+                refreshToken,
+                accessToken,
+                refreshToken,
+                accessTokenlastUpdate: new Date().toLocaleString(),
+                refreshTokenlastUpdate: new Date().toLocaleString(),
+            });
+    
+            console.log(`User added : ${newUser}`);
+    
+        } catch (err) {
+            console.log('An error occured');
+            throw new Error(err);
+        }
+    }
+
+    return Model;
+};
