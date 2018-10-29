@@ -4,7 +4,7 @@ const sequelize = new Sequelize('assistant_utt', 'root', '', {
   host: 'localhost',
   dialect: 'mysql',
   operatorsAliases: false,
-
+  // logging: false,
   pool: {
     max: 5,
     min: 0,

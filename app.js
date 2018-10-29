@@ -12,9 +12,12 @@ app.set('database', require('./database'));
 
 const { model, sequelize } = app.get('database');
 
-app.use(require('./controllers'));
 
 app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({extended: true}));
+
+app.use(require('./controllers'));
+
 
 app.listen(PORT, () => {
   console.log(`Listening at port ${PORT}`);

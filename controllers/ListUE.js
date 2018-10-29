@@ -38,7 +38,7 @@ router.get('/:codeUE', (req, res) => {
 
 router.get('/', (req, res) => {
   const filter = {};
-
+  // This is to filter UE by their fields
   ueFieldList.forEach((field) => {
     if (req.query[field]) {
       filter[field] = req.query[field];

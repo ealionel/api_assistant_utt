@@ -5282,6 +5282,7 @@
     "objectif": [
       "L'objectif de cette UV est de comprendre et utiliser l'approche orientée objet pour la mise en oeuvre de projets logiciels. Elle propose de mener de front la conception détaillée (en UML) et le développement (en Java) d'un même projet."
     ],
+    "semestre": "Automne",
     "programme": [
       "comprendre les concepts de l'approche orientée objet et les traduire en UML et en Java'",
       "connaître et réutiliser les bibliothèques et fonctions essentielles de Java2 SE (Standard Edition)",
@@ -10747,7 +10748,8 @@
       "interpréter un signal et choisir un espace de représentation du signal adapté",
       "comprendre le rôle et le fonctionnement des éléments d'une chaine de traitement de l'information ou d'aide au diagnostic'",
       "concevoir une chaîne de traitement de l'information'"
-    ]
+    ],
+    "semestre": "Automne"
   },
   {
     "code": "SY12",

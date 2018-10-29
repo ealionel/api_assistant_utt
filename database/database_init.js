@@ -40,4 +40,4 @@ async function init() {
   }
 }
 
-init();
+init().then(process.exit(0));
