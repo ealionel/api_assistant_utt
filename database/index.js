@@ -21,7 +21,7 @@ const sequelize = new Sequelize(
 const models = [
   'ListUE',
   'UsersFeedback',
-  'Users',
+  'AuthenticatedUsers',
 ];
 
 module.exports.model = {};
