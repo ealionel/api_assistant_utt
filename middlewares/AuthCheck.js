@@ -15,8 +15,8 @@ const authenticationCheck = async (req, res, next) => {
     
         const userTokens = await model.UsersTokens.getUser(senderId);
     
+        // This is to check if user with this sender ID is in database or not (authenticated or not)
         if (userTokens) {
-
             // If accesToken or refreshToken has expired, we refresh them 
             if (userTokens.hasRefreshTokenExpired() || userTokens.hasAccessTokenExpired()) {
                 await userTokens.refresh();

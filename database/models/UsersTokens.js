@@ -117,10 +117,10 @@ module.exports = (sequelize, DataTypes) => {
      * @param  {string} UserTokens.refresh_token
      */
     Model.prototype.updateUserTokens = async function({ refresh_token, access_token }) {
+        const currentTime = new Date().toLocaleString();
+        
         this.refresh_token = refresh_token;
         this.access_token = access_token;
-
-        const currentTime = new Date().toLocaleString();
         this.refreshTokenLastUpdate = currentTime;
         this.accessTokenLastUpdate = currentTime;
 
@@ -159,7 +159,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     Model.prototype.hasRefreshTokenExpired = function() {
         const timeDifference = (new Date().getTime() - (new Date(this.refreshTokenLastUpdate)).getTime()) / 1000;
-        if (timeDifference > 2592000) {
+        if (timeDifference > 2492000) {
             console.log(`Refresh token of ${sender_id} expired since ${timeDifference}s`);
             return true;
         } else {
