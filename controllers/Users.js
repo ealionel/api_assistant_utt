@@ -1,24 +1,23 @@
 const express = require('express');
 const { model } = require('../database');
 const authCheck = require('../middlewares/AuthCheck');
-const fetchEtuUsers = require('../helpers/fetchEtuUsers');
+const fetchEtu = require('../helpers/fetchEtu');
 
 const router = express.Router();
 
-router.get('/', authCheck , async (req, res) => {
+router.get('/private/:endpoint', authCheck , async (req, res) => {
     try {
         const userTokens = res.locals.userTokens;
 
-        const userInfo = await fetchEtuUsers({
-            userTokens,
-            endpoint: 'account',
-        });
+        const userInfo = await userTokens.getUserInfo(req.params.endpoint);
 
-        res.send(`Salut, tu es bien ${userInfo.fullName} ?`);
+        res.json(userInfo);
     } catch (err) {
         console.log(err.message);
-        res.json({ error: err.message })
+        res.json({ error: 'An error occured when fetching private user information.' })
     }
 });
+
+
 
 module.exports = router;

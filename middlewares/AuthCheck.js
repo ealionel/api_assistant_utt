@@ -9,16 +9,16 @@ const authenticationCheck = async (req, res, next) => {
             throw new Error ('No sender_id query string in url');
         }
     
-        const userTokens = await model.AuthenticatedUsers.findAll({
+        const userTokens = await model.UsersTokens.findAll({
             limit: 1,
-            raw: true,
             where: {
                 sender_id: sender_id,
             },
             order: [['createdAt', 'DESC']],
-        }).then((result) => {
+        }).then((result) => {    
             return result[0];
         });
+
     
         if (userTokens) {
             res.locals.userTokens = userTokens;

@@ -3,7 +3,7 @@ const { model } = require('../database');
 const router = express.Router();
 const ClientOAuth2 = require('client-oauth2');
 const url = require('url');
-const fetchEtuUsers = require('../helpers/fetchEtuUsers');
+const fetchEtu = require('../helpers/fetchEtu');
 
 // Loading app credentials from environment file vars
 
@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
 
 // Callback url after user has given permission to app or not
 // The tokens are then stored in the database
-router.get('/redirect', async (req, res, next) => {
+router.get('/redirect', async (req, res) => {
     if (req.query.error) {
         console.log(req.query.error);
         return res.send('Authentification annulée.');
@@ -49,24 +49,21 @@ router.get('/redirect', async (req, res, next) => {
             .then(user => user.data);
         
         // This is our model's user tokens object
-        const userTokens = await model.AuthenticatedUsers.addUser({
+        const user = await model.UsersTokens.addUser({
             username: 'Unknown',
             sender_id: req.query.state,
             refresh_token: rawUserTokens.refresh_token,
             access_token: rawUserTokens.access_token,
-        });
-
-        const user = await fetchEtuUsers({
-            userTokens,
-            endpoint: 'account',
-        });
+        }).then(user => user.getUserInfo('account'));
 
         console.log(`User ${user.login} authenticated`);
         res.send(`Bonjour ${user.fullName} ! Vous êtes maintenant authentifiés.`);
     } catch (err) {
-        console.log(`Authentication failed : ${err}`);
+        console.log(`Authentication failed :`);
+        console.log(err);
         res.send('Authentification échouée').status(401);
     }
 });
 
 module.exports = router;
+module.exports.etuAuth = etuAuth;
