@@ -1,35 +1,38 @@
 const { model } = require('../database');
 
+/**
+ * This middleware checks if the sender id is present
+ * whether in header ('sender-id') or in query string (sender_id)
+ */
 const authenticationCheck = async (req, res, next) => {
 
-    try {
-        const sender_id = req.query.sender_id;
-    
-        if (!sender_id) {
-            throw new Error ('No sender_id query string in url');
+    try { 
+        const senderId = req.query.sender_id || req.get('sender-id');
+
+        if (!senderId) {
+            return res.status(401).json({ error: 'sender_id is missing'});
         }
     
-        const userTokens = await model.UsersTokens.findAll({
-            limit: 1,
-            where: {
-                sender_id: sender_id,
-            },
-            order: [['createdAt', 'DESC']],
-        }).then((result) => {    
-            return result[0];
-        });
-
+        const userTokens = await model.UsersTokens.getUser(senderId);
     
         if (userTokens) {
+
+            // If accesToken or refreshToken has expired, we refresh them 
+            if (userTokens.hasRefreshTokenExpired() || userTokens.hasAccessTokenExpired()) {
+                await userTokens.refresh();
+            }
+
             res.locals.userTokens = userTokens;
+
             return next();
         } else {
-            throw new Error(`senderId '${sender_id}' does not match any already authenticated users`);
+            console.log(`${senderId} is not authenticated.`)
+            return res.status(401).json({ error : `'${senderId}' is not authenticated.` });
         }
 
     } catch (err) {
-        console.log(err.message);
-        res.json({ error : err.message });
+        console.log(err);
+        res.status(500).json({ error : 'An error occured when checking authentication.' });
     }
 };
 

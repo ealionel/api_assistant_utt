@@ -12,7 +12,7 @@ const etuAuth = new ClientOAuth2({
     clientSecret: process.env.ETU_CLIENT_SECRET,
     accessTokenUri: 'https://etu.utt.fr/api/oauth/token',
     authorizationUri: 'https://etu.utt.fr/api/oauth/authorize',
-    redirectUri: 'localhost:8080/auth/redirect',
+    redirectUri: 'localhost:8080/api/auth/redirect',
     scopes: ['public', 'private_user_account', 'private_user_schedule', 'private_user_organizations'],  
 })
 
@@ -20,7 +20,11 @@ const etuAuth = new ClientOAuth2({
 // etu.utt.fr's authentication page.
 router.get('/', (req, res) => {
     // This variable is would eventually be their Facebook id
-    const senderId = req.query.sender_id? req.query.sender_id:'xyz';
+    const senderId = req.query.sender_id || req.get('sender-id');
+
+    if (!senderId) {
+        return res.status(401).json({ error: 'sender_id is missing'});
+    }
 
     const authUri = new url.URL(etuAuth.code.getUri({
         state: senderId,
@@ -40,7 +44,7 @@ router.get('/', (req, res) => {
 router.get('/redirect', async (req, res) => {
     if (req.query.error) {
         console.log(req.query.error);
-        return res.send('Authentification annulée.');
+        return res.status(401).json({ error : 'Authentication cancelled' });
     }
     
     try {
@@ -48,20 +52,22 @@ router.get('/redirect', async (req, res) => {
         const rawUserTokens = await etuAuth.code.getToken(req.originalUrl)
             .then(user => user.data);
         
+        const senderId = req.query.state;
+
         // This is our model's user tokens object
-        const user = await model.UsersTokens.addUser({
+        const user = await model.UsersTokens.newUser({
             username: 'Unknown',
-            sender_id: req.query.state,
+            sender_id: senderId,
             refresh_token: rawUserTokens.refresh_token,
             access_token: rawUserTokens.access_token,
-        }).then(user => user.getUserInfo('account'));
+        }).then(user => user.getPrivateEtuUserInfo('account'));
 
         console.log(`User ${user.login} authenticated`);
         res.send(`Bonjour ${user.fullName} ! Vous êtes maintenant authentifiés.`);
     } catch (err) {
         console.log(`Authentication failed :`);
         console.log(err);
-        res.send('Authentification échouée').status(401);
+        res.status(401).json({ error : 'Authentification échouée' });
     }
 });
 

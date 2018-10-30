@@ -12,8 +12,8 @@ async function fetchPrivateUserInfo({
         let result = await fetch(`https://etu.utt.fr/api/private/user/${endpoint}`, {
             method: 'GET',
             headers: {
-                Authorization: `Bearer ${userTokens.access_token}`
-            }
+                Authorization: `Bearer ${userTokens.access_token}`,
+            },
         })  .then((user) => user.json());
 
         if (!result.error) {
@@ -27,14 +27,29 @@ async function fetchPrivateUserInfo({
     }
 }
 
-// async function fetchPublicUserInfo({userTokens,
-//     userTokens,
-//     user = '',
-// }) {
-//     try {
+async function fetchUserByLogin({
+    userTokens,
+    login = '',
+}) {
+    try {
+        let result = await fetch(`https://etu.utt.fr/api/public/users/${login}`, {
+            method: 'GET',
+            headers: {
+                Authorization: `Bearer ${userTokens.access_token}`,
+            },
+        })  .then((user) => user.json());
 
-//     }
-// }
+        // In case server is down or tokens have expired.
+        if (!result.error) {
+            result = result.data;
+        }
 
+        return result;
+    } catch (err) {
+        console.log(err);
+        throw (err);
+    }
+}
 
+module.exports.userByLogin = fetchUserByLogin;
 module.exports.privateUserInfo = fetchPrivateUserInfo;

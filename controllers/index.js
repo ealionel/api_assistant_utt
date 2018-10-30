@@ -2,10 +2,10 @@ const express = require('express');
 
 const router = express.Router();
 
-router.use('/ue', require('./ListUE.js'));
+router.use('/api/ue', require('./ListUE.js'));
 router.use('/politique', require('./politique'));
 router.use('/echo', require('./Echo'));
-router.use('/auth', require('./Auth'));
-router.use('/user', require('./Users'));
+router.use('/api/auth', require('./Auth'));
+router.use('/api/users', require('./Users'));
 
 module.exports = router;
