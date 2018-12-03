@@ -6,7 +6,7 @@ const fetchEtu = require('../helpers/fetchEtu');
 const router = express.Router();
 
 /**
- * ENDPOINT ----> /api/private/:endpoint
+ * ENDPOINT ----> /api/users/private/:endpoint
  * Fetch user private information. Information depends on :endpoint
  * Must be either 'account', 'organizations' or 'schedule'
  * 

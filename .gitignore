@@ -17,3 +17,4 @@ database/guideUE \(old\)\.json
 
 oauthtest\.js
 .env
+credentials/assistant-utt.json

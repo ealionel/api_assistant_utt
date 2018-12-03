@@ -4,14 +4,15 @@
   "description": "API de l'Assistant UTT",
   "main": "index.js",
   "scripts": {
-    "start": "node webhook_assistant_utt.js",
-    "test": "node webhook_assistant_utt.js"
+    "start": "export GOOGLE_APPLICATION_CREDENTIALS=\"./credentials/assistant-utt.json\" && node app.js",
+    "test": ""
   },
   "author": "Lionel EA",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "client-oauth2": "^4.2.1",
+    "dialogflow": "^0.7.0",
     "dialogflow-fulfillment": "^0.3.0-beta.2",
     "dotenv": "^6.1.0",
     "express": "^4.16.3",
