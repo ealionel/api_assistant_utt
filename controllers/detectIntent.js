@@ -21,13 +21,6 @@ const sessionClient = new dialogflow.SessionsClient();
 const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
 router.get('/detectIntent', (req, res) => {
-
-  res.set({
-    'Access-Control-Allow-Origin': 'http://localhost:3000',
-    'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
-  });
-
   console.log(req.query);
 
   const query = req.query.textRequest;
