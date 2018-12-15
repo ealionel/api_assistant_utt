@@ -16,8 +16,11 @@ const etuAuth = new ClientOAuth2({
     scopes: ['public', 'private_user_account', 'private_user_schedule', 'private_user_organizations'],  
 })
 
-// Endpoint that redirects user towards
-// etu.utt.fr's authentication page.
+/**
+ * ENDPOINT ----> /api/auth?sender_id=<sender_id>
+ * Redirects user to etu.utt.fr authentication page
+ * sender_id is used to remember if user is authenticated or not.
+ */
 router.get('/', (req, res) => {
     // This variable is would eventually be their Facebook id
     const senderId = req.query.sender_id || req.get('sender-id');
@@ -39,8 +42,11 @@ router.get('/', (req, res) => {
     res.redirect(authUri.toString());
 });
 
-// Callback url after user has given permission to app or not
-// The tokens are then stored in the database
+/**
+ * ENDPOINT -----> /api/auth/redirect
+ * Callback url after user has given permission to app or not
+ * The tokens are then stored in the database
+ */
 router.get('/redirect', async (req, res) => {
     if (req.query.error) {
         console.log(req.query.error);
@@ -63,11 +69,14 @@ router.get('/redirect', async (req, res) => {
         }).then(user => user.getPrivateEtuUserInfo('account'));
 
         console.log(`User ${user.login} authenticated`);
-        res.send(`Bonjour ${user.fullName} ! Vous êtes maintenant authentifiés.`);
+        res.render('authentication/authenticated.ejs', { user });
+        // res.send(`Bonjour ${user.fullName} ! Vous êtes maintenant authentifiés.`);
     } catch (err) {
         console.log(`Authentication failed :`);
         console.log(err);
-        res.status(401).json({ error : 'Authentification échouée' });
+        res.status(401)
+        res.render('authentication/failed.ejs');
+        // res.json({ error : 'Authentification échouée' });
     }
 });
 

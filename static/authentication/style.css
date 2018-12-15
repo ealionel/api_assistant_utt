@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    background-color: cornflowerblue;
+    font-family: 'Open Sans', Roboto, Verdana;
+}
+
+.big-message {
+    margin : auto;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.sub-message {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.message {
+    margin-top: 40vh;
+    width: 100%;
+    transform: translateY(-50%);
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-15%);
+    }
+}

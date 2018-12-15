@@ -12,6 +12,10 @@ const PORT = process.env.PORT || 8080;
 // more than one connection to the database. (See nodejs doc on caching)
 app.set('database', require('./database'));
 
+// Setting EJS as view engine.
+app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/static'));
+
 const { sequelize } = app.get('database');
 
 
