@@ -24,7 +24,7 @@
     "mariasql": "^0.2.6",
     "mysql": "^2.15.0",
     "mysql2": "^1.6.1",
-    "node-fetch": "^2.1.2",
+    "node-fetch": "^2.6.1",
     "querystring": "^0.2.0",
     "request": "^2.87.0",
     "sequelize": "^4.38.1",
